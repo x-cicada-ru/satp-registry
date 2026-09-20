@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 86,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ДОНСКАЯ РЕСПУБЛИКА/КАЗАКИЯ* (COSSACKIA)",
+    "aliases": [
+      "COSSACKIA"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 86\nname: \"ДВИЖЕНИЕ ДОНСКАЯ РЕСПУБЛИКА/КАЗАКИЯ* (COSSACKIA)\"\naliases: [\"COSSACKIA\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ ДОНСКАЯ РЕСПУБЛИКА/КАЗАКИЯ* (COSSACKIA)\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ДОНСКАЯ РЕСПУБЛИКА/КАЗАКИЯ* (COSSACKIA)\n- **Алиасы:** COSSACKIA\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ ДОНСКАЯ РЕСПУБЛИКА/КАЗАКИЯ* (COSSACKIA),`\n\n"
+}

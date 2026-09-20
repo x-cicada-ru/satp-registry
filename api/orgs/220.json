@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 220,
+    "type": "org",
+    "name": "МЕЖДУНАРОДНОЕ ОБЪЕДИНЕНИЕ КРОВЬ И ЧЕСТЬ (BLOOD AND HONOUR/COMBAT18, B&H, BANDH)",
+    "aliases": [
+      "BLOOD AND HONOUR/COMBAT18, B&H, BANDH"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 220\nname: \"МЕЖДУНАРОДНОЕ ОБЪЕДИНЕНИЕ КРОВЬ И ЧЕСТЬ (BLOOD AND HONOUR/COMBAT18, B&H, BANDH)\"\naliases: [\"BLOOD AND HONOUR/COMBAT18, B&H, BANDH\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# МЕЖДУНАРОДНОЕ ОБЪЕДИНЕНИЕ КРОВЬ И ЧЕСТЬ (BLOOD AND HONOUR/COMBAT18, B&H, BANDH)\n\n## Данные из перечня\n\n- **Название:** МЕЖДУНАРОДНОЕ ОБЪЕДИНЕНИЕ КРОВЬ И ЧЕСТЬ (BLOOD AND HONOUR/COMBAT18, B&H, BANDH)\n- **Алиасы:** BLOOD AND HONOUR/COMBAT18, B&H, BANDH\n- **В списке:** нет\n\n- **Исходная строка:** `МЕЖДУНАРОДНОЕ ОБЪЕДИНЕНИЕ КРОВЬ И ЧЕСТЬ (BLOOD AND HONOUR/COMBAT18, B&H, BANDH) ,`\n\n"
+}

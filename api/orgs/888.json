@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 888,
+    "type": "org",
+    "name": "ЭРЗЯНСКИЙ НАЦИОНАЛЬНЫЙ КОНГРЕСС",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 888\nname: \"ЭРЗЯНСКИЙ НАЦИОНАЛЬНЫЙ КОНГРЕСС\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ЭРЗЯНСКИЙ НАЦИОНАЛЬНЫЙ КОНГРЕСС\n\n## Данные из перечня\n\n- **Название:** ЭРЗЯНСКИЙ НАЦИОНАЛЬНЫЙ КОНГРЕСС\n- **В списке:** да\n\n- **Исходная строка:** `ЭРЗЯНСКИЙ НАЦИОНАЛЬНЫЙ КОНГРЕСС* ,`\n\n"
+}

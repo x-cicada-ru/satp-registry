@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 60,
+    "type": "org",
+    "name": "ГРУППА ДЖАМААТ МУВАХИДОВ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 60\nname: \"ГРУППА ДЖАМААТ МУВАХИДОВ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ГРУППА ДЖАМААТ МУВАХИДОВ\n\n## Данные из перечня\n\n- **Название:** ГРУППА ДЖАМААТ МУВАХИДОВ\n- **В списке:** нет\n\n- **Исходная строка:** `ГРУППА ДЖАМААТ МУВАХИДОВ ,`\n\n"
+}

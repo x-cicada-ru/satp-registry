@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 14809,
+    "type": "person",
+    "name": "ОЗДОЕВ АСЛАН ИСРАИЛОВИЧ",
+    "aliases": [],
+    "last_name": "ОЗДОЕВ",
+    "first_name": "АСЛАН",
+    "middle_name": "ИСРАИЛОВИЧ",
+    "date_of_birth": "20.03.1983",
+    "year_of_birth": 1983,
+    "place_of_birth": null,
+    "letter": "О",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 14809\nfullName: \"ОЗДОЕВ АСЛАН ИСРАИЛОВИЧ\"\naliases: []\ndateOfBirth: \"20.03.1983\"\nplaceOfBirth: null\nmarked: true\n---\n# ОЗДОЕВ АСЛАН ИСРАИЛОВИЧ\n\n## Данные из перечня\n\n- **ФИО:** ОЗДОЕВ АСЛАН ИСРАИЛОВИЧ\n- **Дата рождения:** 20.03.1983\n- **В списке:** да\n\n- **Исходная строка:** `ОЗДОЕВ АСЛАН ИСРАИЛОВИЧ*, 20.03.1983 г.р.`\n\n"
+}

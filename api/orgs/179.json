@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 179,
+    "type": "org",
+    "name": "КАРЕЛЬСКОЕ НАЦИОНАЛЬНОЕ ДВИЖЕНИЕ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 179\nname: \"КАРЕЛЬСКОЕ НАЦИОНАЛЬНОЕ ДВИЖЕНИЕ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# КАРЕЛЬСКОЕ НАЦИОНАЛЬНОЕ ДВИЖЕНИЕ\n\n## Данные из перечня\n\n- **Название:** КАРЕЛЬСКОЕ НАЦИОНАЛЬНОЕ ДВИЖЕНИЕ\n- **В списке:** нет\n\n- **Исходная строка:** `КАРЕЛЬСКОЕ НАЦИОНАЛЬНОЕ ДВИЖЕНИЕ ,`\n\n"
+}

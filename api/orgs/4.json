@@ -1,0 +1,19 @@
+{
+  "record": {
+    "id": 4,
+    "type": "org",
+    "name": "URALIC KESKUS MTU (MTU POLISTRAHVASTE ARENGU KESKUS; URALIC CENTR OF INDIGENOUS PEOPLES; ЦЕНТР URALIC; ЦЕНТР РАЗВИТИЯ КОРЕННЫХ НАРОДОВ)",
+    "aliases": [
+      "MTU POLISTRAHVASTE ARENGU KESKUS",
+      "URALIC CENTR OF INDIGENOUS PEOPLES",
+      "ЦЕНТР URALIC",
+      "ЦЕНТР РАЗВИТИЯ КОРЕННЫХ НАРОДОВ"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 4\nname: \"URALIC KESKUS MTU (MTU POLISTRAHVASTE ARENGU KESKUS; URALIC CENTR OF INDIGENOUS PEOPLES; ЦЕНТР URALIC; ЦЕНТР РАЗВИТИЯ КОРЕННЫХ НАРОДОВ)\"\naliases: [\"MTU POLISTRAHVASTE ARENGU KESKUS\", \"URALIC CENTR OF INDIGENOUS PEOPLES\", \"ЦЕНТР URALIC\", \"ЦЕНТР РАЗВИТИЯ КОРЕННЫХ НАРОДОВ\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# URALIC KESKUS MTU (MTU POLISTRAHVASTE ARENGU KESKUS; URALIC CENTR OF INDIGENOUS PEOPLES; ЦЕНТР URALIC; ЦЕНТР РАЗВИТИЯ КОРЕННЫХ НАРОДОВ)\n\n## Данные из перечня\n\n- **Название:** URALIC KESKUS MTU (MTU POLISTRAHVASTE ARENGU KESKUS; URALIC CENTR OF INDIGENOUS PEOPLES; ЦЕНТР URALIC; ЦЕНТР РАЗВИТИЯ КОРЕННЫХ НАРОДОВ)\n- **Алиасы:** MTU POLISTRAHVASTE ARENGU KESKUS; URALIC CENTR OF INDIGENOUS PEOPLES; ЦЕНТР URALIC; ЦЕНТР РАЗВИТИЯ КОРЕННЫХ НАРОДОВ\n- **В списке:** нет\n\n- **Исходная строка:** `URALIC KESKUS MTU (MTU POLISTRAHVASTE ARENGU KESKUS; URALIC CENTR OF INDIGENOUS PEOPLES; ЦЕНТР URALIC; ЦЕНТР РАЗВИТИЯ КОРЕННЫХ НАРОДОВ),`\n\n"
+}

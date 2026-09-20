@@ -1,0 +1,21 @@
+{
+  "record": {
+    "id": 12305,
+    "type": "person",
+    "name": "МАЛАС ХУССАМ ЕДДИН",
+    "aliases": [
+      "MALAS KHUSSAM EDDIN",
+      "MALAS KHUSSAN EDDIN",
+      "МАЛАС ХУССАН ЕДДИН"
+    ],
+    "last_name": "МАЛАС",
+    "first_name": "ХУССАМ",
+    "middle_name": "ЕДДИН",
+    "date_of_birth": "01.06.1971",
+    "year_of_birth": 1971,
+    "place_of_birth": "Г. ДАМАССК СИРИЙСКОЙ АРАБСКОЙ РЕСПУБЛИКИ",
+    "letter": "М",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 12305\nfullName: \"МАЛАС ХУССАМ ЕДДИН\"\naliases: [\"MALAS KHUSSAM EDDIN\", \"MALAS KHUSSAN EDDIN\", \"МАЛАС ХУССАН ЕДДИН\"]\ndateOfBirth: \"01.06.1971\"\nplaceOfBirth: \"Г. ДАМАССК СИРИЙСКОЙ АРАБСКОЙ РЕСПУБЛИКИ\"\nmarked: true\n---\n# МАЛАС ХУССАМ ЕДДИН\n\n## Данные из перечня\n\n- **ФИО:** МАЛАС ХУССАМ ЕДДИН\n- **Алиасы:** MALAS KHUSSAM EDDIN; MALAS KHUSSAN EDDIN; МАЛАС ХУССАН ЕДДИН\n- **Дата рождения:** 01.06.1971\n- **Место рождения:** Г. ДАМАССК СИРИЙСКОЙ АРАБСКОЙ РЕСПУБЛИКИ\n- **В списке:** да\n\n- **Исходная строка:** `МАЛАС ХУССАМ ЕДДИН*, (MALAS KHUSSAM EDDIN; MALAS KHUSSAN EDDIN; МАЛАС ХУССАН ЕДДИН), 01.06.1971 г.р. , Г. ДАМАССК СИРИЙСКОЙ АРАБСКОЙ РЕСПУБЛИКИ`\n\n"
+}

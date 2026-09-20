@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 53,
+    "type": "org",
+    "name": "ВСЕТАТАРСКИЙ ОБЩЕСТВЕННЫЙ ЦЕНТР",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 53\nname: \"ВСЕТАТАРСКИЙ ОБЩЕСТВЕННЫЙ ЦЕНТР\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ВСЕТАТАРСКИЙ ОБЩЕСТВЕННЫЙ ЦЕНТР\n\n## Данные из перечня\n\n- **Название:** ВСЕТАТАРСКИЙ ОБЩЕСТВЕННЫЙ ЦЕНТР\n- **В списке:** да\n\n- **Исходная строка:** `ВСЕТАТАРСКИЙ ОБЩЕСТВЕННЫЙ ЦЕНТР* ,`\n\n"
+}

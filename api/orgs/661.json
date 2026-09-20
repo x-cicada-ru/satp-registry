@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 661,
+    "type": "org",
+    "name": "МОПД КАВКАЗСКИЙ СОЮЗ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 661\nname: \"МОПД КАВКАЗСКИЙ СОЮЗ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# МОПД КАВКАЗСКИЙ СОЮЗ\n\n## Данные из перечня\n\n- **Название:** МОПД КАВКАЗСКИЙ СОЮЗ\n- **В списке:** да\n\n- **Исходная строка:** `МОПД КАВКАЗСКИЙ СОЮЗ* ,`\n\n"
+}

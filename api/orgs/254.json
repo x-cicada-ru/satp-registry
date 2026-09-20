@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 254,
+    "type": "org",
+    "name": "МЕСТНАЯ ОРГАНИЗАЦИЯ ГОРОДА КРАСНОДАРА ПИТ БУЛЬ (PIT BULL)",
+    "aliases": [
+      "PIT BULL"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 254\nname: \"МЕСТНАЯ ОРГАНИЗАЦИЯ ГОРОДА КРАСНОДАРА ПИТ БУЛЬ (PIT BULL)\"\naliases: [\"PIT BULL\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# МЕСТНАЯ ОРГАНИЗАЦИЯ ГОРОДА КРАСНОДАРА ПИТ БУЛЬ (PIT BULL)\n\n## Данные из перечня\n\n- **Название:** МЕСТНАЯ ОРГАНИЗАЦИЯ ГОРОДА КРАСНОДАРА ПИТ БУЛЬ (PIT BULL)\n- **Алиасы:** PIT BULL\n- **В списке:** нет\n\n- **Исходная строка:** `МЕСТНАЯ ОРГАНИЗАЦИЯ ГОРОДА КРАСНОДАРА ПИТ БУЛЬ (PIT BULL) ,`\n\n"
+}

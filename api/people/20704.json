@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 20704,
+    "type": "person",
+    "name": "ХОЖААБДУЛЛОЕВ НАЖМИДДИН",
+    "aliases": [],
+    "last_name": "ХОЖААБДУЛЛОЕВ",
+    "first_name": "НАЖМИДДИН",
+    "middle_name": "",
+    "date_of_birth": "14.12.1994",
+    "year_of_birth": 1994,
+    "place_of_birth": null,
+    "letter": "Х",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 20704\nfullName: \"ХОЖААБДУЛЛОЕВ НАЖМИДДИН\"\naliases: []\ndateOfBirth: \"14.12.1994\"\nplaceOfBirth: null\nmarked: true\n---\n# ХОЖААБДУЛЛОЕВ НАЖМИДДИН\n\n## Данные из перечня\n\n- **ФИО:** ХОЖААБДУЛЛОЕВ НАЖМИДДИН\n- **Дата рождения:** 14.12.1994\n- **В списке:** да\n\n- **Исходная строка:** `ХОЖААБДУЛЛОЕВ НАЖМИДДИН*, 14.12.1994 г.р.`\n\n"
+}

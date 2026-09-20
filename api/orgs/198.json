@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 198,
+    "type": "org",
+    "name": "КОНФЕДЕРАЦИЯ КАВКАЗСКОГО СОЮЗА* (CAUCASIAN UNION)",
+    "aliases": [
+      "CAUCASIAN UNION"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 198\nname: \"КОНФЕДЕРАЦИЯ КАВКАЗСКОГО СОЮЗА* (CAUCASIAN UNION)\"\naliases: [\"CAUCASIAN UNION\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# КОНФЕДЕРАЦИЯ КАВКАЗСКОГО СОЮЗА* (CAUCASIAN UNION)\n\n## Данные из перечня\n\n- **Название:** КОНФЕДЕРАЦИЯ КАВКАЗСКОГО СОЮЗА* (CAUCASIAN UNION)\n- **Алиасы:** CAUCASIAN UNION\n- **В списке:** да\n\n- **Исходная строка:** `КОНФЕДЕРАЦИЯ КАВКАЗСКОГО СОЮЗА* (CAUCASIAN UNION),`\n\n"
+}

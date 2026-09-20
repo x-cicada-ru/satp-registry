@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 20,
+    "type": "org",
+    "name": "АРМЯНСКИЙ ЛЕГИОН БАГРАТУНИ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 20\nname: \"АРМЯНСКИЙ ЛЕГИОН БАГРАТУНИ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# АРМЯНСКИЙ ЛЕГИОН БАГРАТУНИ\n\n## Данные из перечня\n\n- **Название:** АРМЯНСКИЙ ЛЕГИОН БАГРАТУНИ\n- **В списке:** да\n\n- **Исходная строка:** `АРМЯНСКИЙ ЛЕГИОН БАГРАТУНИ* ,`\n\n"
+}

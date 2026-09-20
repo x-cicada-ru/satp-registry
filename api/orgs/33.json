@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 33,
+    "type": "org",
+    "name": "БАТАЛЬОН ТУРАН",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 33\nname: \"БАТАЛЬОН ТУРАН\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# БАТАЛЬОН ТУРАН\n\n## Данные из перечня\n\n- **Название:** БАТАЛЬОН ТУРАН\n- **В списке:** да\n\n- **Исходная строка:** `БАТАЛЬОН ТУРАН* ,`\n\n"
+}

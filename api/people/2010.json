@@ -1,0 +1,21 @@
+{
+  "record": {
+    "id": 2010,
+    "type": "person",
+    "name": "АСОТИЧ ИЛДАН",
+    "aliases": [
+      "ASOTIC ILDAN",
+      "DACIC ILDIS",
+      "ДАЦИЧ ИЛДИС"
+    ],
+    "last_name": "АСОТИЧ",
+    "first_name": "ИЛДАН",
+    "middle_name": "",
+    "date_of_birth": "29.12.1987",
+    "year_of_birth": 1987,
+    "place_of_birth": "Г. СЕНИЦА РЕСПУБЛИКИ СЕРБИЯ",
+    "letter": "А",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 2010\nfullName: \"АСОТИЧ ИЛДАН\"\naliases: [\"ASOTIC ILDAN\", \"DACIC ILDIS\", \"ДАЦИЧ ИЛДИС\"]\ndateOfBirth: \"29.12.1987\"\nplaceOfBirth: \"Г. СЕНИЦА РЕСПУБЛИКИ СЕРБИЯ\"\nmarked: true\n---\n# АСОТИЧ ИЛДАН\n\n## Данные из перечня\n\n- **ФИО:** АСОТИЧ ИЛДАН\n- **Алиасы:** ASOTIC ILDAN; DACIC ILDIS; ДАЦИЧ ИЛДИС\n- **Дата рождения:** 29.12.1987\n- **Место рождения:** Г. СЕНИЦА РЕСПУБЛИКИ СЕРБИЯ\n- **В списке:** да\n\n- **Исходная строка:** `АСОТИЧ ИЛДАН*, (ASOTIC ILDAN; DACIC ILDIS; ДАЦИЧ ИЛДИС), 29.12.1987 г.р. , Г. СЕНИЦА РЕСПУБЛИКИ СЕРБИЯ`\n\n"
+}

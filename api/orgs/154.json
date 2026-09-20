@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 154,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ЦЕНТР ОСТРОПА* (CENTER OSTROPA)",
+    "aliases": [
+      "CENTER OSTROPA"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 154\nname: \"ДВИЖЕНИЕ ЦЕНТР ОСТРОПА* (CENTER OSTROPA)\"\naliases: [\"CENTER OSTROPA\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ ЦЕНТР ОСТРОПА* (CENTER OSTROPA)\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ЦЕНТР ОСТРОПА* (CENTER OSTROPA)\n- **Алиасы:** CENTER OSTROPA\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ ЦЕНТР ОСТРОПА* (CENTER OSTROPA),`\n\n"
+}

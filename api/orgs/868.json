@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 868,
+    "type": "org",
+    "name": "ФОНД BURIAD GURUN",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 868\nname: \"ФОНД BURIAD GURUN\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ФОНД BURIAD GURUN\n\n## Данные из перечня\n\n- **Название:** ФОНД BURIAD GURUN\n- **В списке:** да\n\n- **Исходная строка:** `ФОНД BURIAD GURUN* ,`\n\n"
+}

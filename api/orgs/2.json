@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 2,
+    "type": "org",
+    "name": "INTERNATIONAL MEMORIAL ASSOCIATION",
+    "aliases": [
+      "МЕЖДУНАРОДНАЯ АССОЦИАЦИЯ МЕМОРИАЛ"
+    ],
+    "country": "ШВЕЙЦАРСКАЯ КОНФЕДЕРАЦИЯ (МЕЖДУНАРОДНАЯ АССОЦИАЦИЯ МЕМОРИАЛ)",
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 2\nname: \"INTERNATIONAL MEMORIAL ASSOCIATION\"\naliases: [\"МЕЖДУНАРОДНАЯ АССОЦИАЦИЯ МЕМОРИАЛ\"]\ncountry: \"ШВЕЙЦАРСКАЯ КОНФЕДЕРАЦИЯ (МЕЖДУНАРОДНАЯ АССОЦИАЦИЯ МЕМОРИАЛ)\"\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# INTERNATIONAL MEMORIAL ASSOCIATION\n\n## Данные из перечня\n\n- **Название:** INTERNATIONAL MEMORIAL ASSOCIATION\n- **Алиасы:** МЕЖДУНАРОДНАЯ АССОЦИАЦИЯ МЕМОРИАЛ\n- **Страна:** ШВЕЙЦАРСКАЯ КОНФЕДЕРАЦИЯ (МЕЖДУНАРОДНАЯ АССОЦИАЦИЯ МЕМОРИАЛ)\n- **В списке:** нет\n\n- **Исходная строка:** `INTERNATIONAL MEMORIAL ASSOCIATION, ШВЕЙЦАРСКАЯ КОНФЕДЕРАЦИЯ (МЕЖДУНАРОДНАЯ АССОЦИАЦИЯ МЕМОРИАЛ),`\n\n"
+}

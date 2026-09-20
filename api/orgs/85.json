@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 85,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ДОНСКАЯ РЕСПУБЛИКА",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 85\nname: \"ДВИЖЕНИЕ ДОНСКАЯ РЕСПУБЛИКА\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ДВИЖЕНИЕ ДОНСКАЯ РЕСПУБЛИКА\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ДОНСКАЯ РЕСПУБЛИКА\n- **В списке:** нет\n\n- **Исходная строка:** `ДВИЖЕНИЕ ДОНСКАЯ РЕСПУБЛИКА ,`\n\n"
+}

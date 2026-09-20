@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 111,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ МОКШЕНЬ МАСТОР",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 111\nname: \"ДВИЖЕНИЕ МОКШЕНЬ МАСТОР\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ МОКШЕНЬ МАСТОР\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ МОКШЕНЬ МАСТОР\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ МОКШЕНЬ МАСТОР* ,`\n\n"
+}

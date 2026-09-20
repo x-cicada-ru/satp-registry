@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 157,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ЭРЗЯНЬ МАСТОР",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 157\nname: \"ДВИЖЕНИЕ ЭРЗЯНЬ МАСТОР\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ ЭРЗЯНЬ МАСТОР\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ЭРЗЯНЬ МАСТОР\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ ЭРЗЯНЬ МАСТОР* ,`\n\n"
+}

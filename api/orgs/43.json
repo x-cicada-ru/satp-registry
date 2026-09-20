@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 43,
+    "type": "org",
+    "name": "ВЗВОД ИНГРИЯ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 43\nname: \"ВЗВОД ИНГРИЯ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ВЗВОД ИНГРИЯ\n\n## Данные из перечня\n\n- **Название:** ВЗВОД ИНГРИЯ\n- **В списке:** да\n\n- **Исходная строка:** `ВЗВОД ИНГРИЯ* ,`\n\n"
+}

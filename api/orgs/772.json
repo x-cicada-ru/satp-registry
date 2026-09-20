@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 772,
+    "type": "org",
+    "name": "ОРГАНИЗАЦИЯ ФУТБОЛЬНЫХ БОЛЕЛЬЩИКОВ ТОЙС (T.O.Y.S; THE OPPOSITION YOUNG SUPPORTERS)",
+    "aliases": [
+      "T.O.Y.S",
+      "THE OPPOSITION YOUNG SUPPORTERS"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 772\nname: \"ОРГАНИЗАЦИЯ ФУТБОЛЬНЫХ БОЛЕЛЬЩИКОВ ТОЙС (T.O.Y.S; THE OPPOSITION YOUNG SUPPORTERS)\"\naliases: [\"T.O.Y.S\", \"THE OPPOSITION YOUNG SUPPORTERS\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ОРГАНИЗАЦИЯ ФУТБОЛЬНЫХ БОЛЕЛЬЩИКОВ ТОЙС (T.O.Y.S; THE OPPOSITION YOUNG SUPPORTERS)\n\n## Данные из перечня\n\n- **Название:** ОРГАНИЗАЦИЯ ФУТБОЛЬНЫХ БОЛЕЛЬЩИКОВ ТОЙС (T.O.Y.S; THE OPPOSITION YOUNG SUPPORTERS)\n- **Алиасы:** T.O.Y.S; THE OPPOSITION YOUNG SUPPORTERS\n- **В списке:** нет\n\n- **Исходная строка:** `ОРГАНИЗАЦИЯ ФУТБОЛЬНЫХ БОЛЕЛЬЩИКОВ ТОЙС (T.O.Y.S; THE OPPOSITION YOUNG SUPPORTERS),`\n\n"
+}

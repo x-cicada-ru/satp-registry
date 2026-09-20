@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 20281,
+    "type": "person",
+    "name": "ХАЛИЛОВ ИЛЬМАН ИЛЬМИЕВИЧ",
+    "aliases": [],
+    "last_name": "ХАЛИЛОВ",
+    "first_name": "ИЛЬМАН",
+    "middle_name": "ИЛЬМИЕВИЧ",
+    "date_of_birth": "06.09.1967",
+    "year_of_birth": 1967,
+    "place_of_birth": null,
+    "letter": "Х",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 20281\nfullName: \"ХАЛИЛОВ ИЛЬМАН ИЛЬМИЕВИЧ\"\naliases: []\ndateOfBirth: \"06.09.1967\"\nplaceOfBirth: null\nmarked: true\n---\n# ХАЛИЛОВ ИЛЬМАН ИЛЬМИЕВИЧ\n\n## Данные из перечня\n\n- **ФИО:** ХАЛИЛОВ ИЛЬМАН ИЛЬМИЕВИЧ\n- **Дата рождения:** 06.09.1967\n- **В списке:** да\n\n- **Исходная строка:** `ХАЛИЛОВ ИЛЬМАН ИЛЬМИЕВИЧ*, 06.09.1967 г.р.`\n\n"
+}

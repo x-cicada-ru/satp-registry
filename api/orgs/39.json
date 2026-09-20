@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 39,
+    "type": "org",
+    "name": "БОЕВОЕ КРЫЛО ВОИНОВ КЁНИГ ЛЕГИОНА",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 39\nname: \"БОЕВОЕ КРЫЛО ВОИНОВ КЁНИГ ЛЕГИОНА\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# БОЕВОЕ КРЫЛО ВОИНОВ КЁНИГ ЛЕГИОНА\n\n## Данные из перечня\n\n- **Название:** БОЕВОЕ КРЫЛО ВОИНОВ КЁНИГ ЛЕГИОНА\n- **В списке:** да\n\n- **Исходная строка:** `БОЕВОЕ КРЫЛО ВОИНОВ КЁНИГ ЛЕГИОНА* ,`\n\n"
+}

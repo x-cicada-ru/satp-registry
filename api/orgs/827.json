@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 827,
+    "type": "org",
+    "name": "СИБИРСКИЙ БАТАЛЬОН",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 827\nname: \"СИБИРСКИЙ БАТАЛЬОН\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# СИБИРСКИЙ БАТАЛЬОН\n\n## Данные из перечня\n\n- **Название:** СИБИРСКИЙ БАТАЛЬОН\n- **В списке:** да\n\n- **Исходная строка:** `СИБИРСКИЙ БАТАЛЬОН* ,`\n\n"
+}

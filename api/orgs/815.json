@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 815,
+    "type": "org",
+    "name": "РЕСПУБЛИКА КУМУКИЯ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 815\nname: \"РЕСПУБЛИКА КУМУКИЯ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# РЕСПУБЛИКА КУМУКИЯ\n\n## Данные из перечня\n\n- **Название:** РЕСПУБЛИКА КУМУКИЯ\n- **В списке:** да\n\n- **Исходная строка:** `РЕСПУБЛИКА КУМУКИЯ* ,`\n\n"
+}

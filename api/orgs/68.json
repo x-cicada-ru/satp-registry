@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 68,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ SUUR-SUOMEN SOTILAAT* (СОЛДАТЫ ВЕЛИКОЙ ФИНЛЯНДИИ)",
+    "aliases": [
+      "СОЛДАТЫ ВЕЛИКОЙ ФИНЛЯНДИИ"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 68\nname: \"ДВИЖЕНИЕ SUUR-SUOMEN SOTILAAT* (СОЛДАТЫ ВЕЛИКОЙ ФИНЛЯНДИИ)\"\naliases: [\"СОЛДАТЫ ВЕЛИКОЙ ФИНЛЯНДИИ\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ SUUR-SUOMEN SOTILAAT* (СОЛДАТЫ ВЕЛИКОЙ ФИНЛЯНДИИ)\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ SUUR-SUOMEN SOTILAAT* (СОЛДАТЫ ВЕЛИКОЙ ФИНЛЯНДИИ)\n- **Алиасы:** СОЛДАТЫ ВЕЛИКОЙ ФИНЛЯНДИИ\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ SUUR-SUOMEN SOTILAAT* (СОЛДАТЫ ВЕЛИКОЙ ФИНЛЯНДИИ),`\n\n"
+}

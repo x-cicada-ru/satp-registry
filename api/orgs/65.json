@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 65,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ FENNOSCANDIA & VAERINGJAVEGR* (ФЕННОСКАНДИЯ)",
+    "aliases": [
+      "ФЕННОСКАНДИЯ"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 65\nname: \"ДВИЖЕНИЕ FENNOSCANDIA & VAERINGJAVEGR* (ФЕННОСКАНДИЯ)\"\naliases: [\"ФЕННОСКАНДИЯ\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ FENNOSCANDIA & VAERINGJAVEGR* (ФЕННОСКАНДИЯ)\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ FENNOSCANDIA & VAERINGJAVEGR* (ФЕННОСКАНДИЯ)\n- **Алиасы:** ФЕННОСКАНДИЯ\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ FENNOSCANDIA & VAERINGJAVEGR* (ФЕННОСКАНДИЯ),`\n\n"
+}

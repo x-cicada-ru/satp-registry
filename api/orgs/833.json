@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 833,
+    "type": "org",
+    "name": "СООБЩЕСТВО KOMI DAILY",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 833\nname: \"СООБЩЕСТВО KOMI DAILY\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# СООБЩЕСТВО KOMI DAILY\n\n## Данные из перечня\n\n- **Название:** СООБЩЕСТВО KOMI DAILY\n- **В списке:** да\n\n- **Исходная строка:** `СООБЩЕСТВО KOMI DAILY* ,`\n\n"
+}

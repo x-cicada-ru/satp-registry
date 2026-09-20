@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 163,
+    "type": "org",
+    "name": "ДИПЛОМАТИЧЕСКИЙ СОВЕТ ЧУВАШИИ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 163\nname: \"ДИПЛОМАТИЧЕСКИЙ СОВЕТ ЧУВАШИИ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ДИПЛОМАТИЧЕСКИЙ СОВЕТ ЧУВАШИИ\n\n## Данные из перечня\n\n- **Название:** ДИПЛОМАТИЧЕСКИЙ СОВЕТ ЧУВАШИИ\n- **В списке:** нет\n\n- **Исходная строка:** `ДИПЛОМАТИЧЕСКИЙ СОВЕТ ЧУВАШИИ ,`\n\n"
+}

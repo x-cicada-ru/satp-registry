@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 876,
+    "type": "org",
+    "name": "ФОНД СВОБОДНАЯ ЯКУТИЯ (FREE YAKUTIA FOUNDATION)",
+    "aliases": [
+      "FREE YAKUTIA FOUNDATION"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 876\nname: \"ФОНД СВОБОДНАЯ ЯКУТИЯ (FREE YAKUTIA FOUNDATION)\"\naliases: [\"FREE YAKUTIA FOUNDATION\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ФОНД СВОБОДНАЯ ЯКУТИЯ (FREE YAKUTIA FOUNDATION)\n\n## Данные из перечня\n\n- **Название:** ФОНД СВОБОДНАЯ ЯКУТИЯ (FREE YAKUTIA FOUNDATION)\n- **Алиасы:** FREE YAKUTIA FOUNDATION\n- **В списке:** нет\n\n- **Исходная строка:** `ФОНД СВОБОДНАЯ ЯКУТИЯ (FREE YAKUTIA FOUNDATION),`\n\n"
+}

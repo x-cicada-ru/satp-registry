@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 158,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ЭРХЕТЕН/ERKHETEN БУРЯТИЯ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 158\nname: \"ДВИЖЕНИЕ ЭРХЕТЕН/ERKHETEN БУРЯТИЯ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ ЭРХЕТЕН/ERKHETEN БУРЯТИЯ\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ЭРХЕТЕН/ERKHETEN БУРЯТИЯ\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ ЭРХЕТЕН/ERKHETEN БУРЯТИЯ* ,`\n\n"
+}

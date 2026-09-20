@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 20227,
+    "type": "person",
+    "name": "ХАКИМОВ РУСТАМ РАМИЛЕВИЧ",
+    "aliases": [],
+    "last_name": "ХАКИМОВ",
+    "first_name": "РУСТАМ",
+    "middle_name": "РАМИЛЕВИЧ",
+    "date_of_birth": "30.12.1989",
+    "year_of_birth": 1989,
+    "place_of_birth": null,
+    "letter": "Х",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 20227\nfullName: \"ХАКИМОВ РУСТАМ РАМИЛЕВИЧ\"\naliases: []\ndateOfBirth: \"30.12.1989\"\nplaceOfBirth: null\nmarked: true\n---\n# ХАКИМОВ РУСТАМ РАМИЛЕВИЧ\n\n## Данные из перечня\n\n- **ФИО:** ХАКИМОВ РУСТАМ РАМИЛЕВИЧ\n- **Дата рождения:** 30.12.1989\n- **В списке:** да\n\n- **Исходная строка:** `ХАКИМОВ РУСТАМ РАМИЛЕВИЧ*, 30.12.1989 г.р.`\n\n"
+}

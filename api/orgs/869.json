@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 869,
+    "type": "org",
+    "name": "ФОНД АЗИАТЫ РОССИИ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 869\nname: \"ФОНД АЗИАТЫ РОССИИ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ФОНД АЗИАТЫ РОССИИ\n\n## Данные из перечня\n\n- **Название:** ФОНД АЗИАТЫ РОССИИ\n- **В списке:** да\n\n- **Исходная строка:** `ФОНД АЗИАТЫ РОССИИ* ,`\n\n"
+}

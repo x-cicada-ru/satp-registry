@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 45,
+    "type": "org",
+    "name": "ВОЕННОЕ КРЫЛО ДВИЖЕНИЯ ЧЕРНЫЙ МОСТ* (WAR BRIDGE)",
+    "aliases": [
+      "WAR BRIDGE"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 45\nname: \"ВОЕННОЕ КРЫЛО ДВИЖЕНИЯ ЧЕРНЫЙ МОСТ* (WAR BRIDGE)\"\naliases: [\"WAR BRIDGE\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ВОЕННОЕ КРЫЛО ДВИЖЕНИЯ ЧЕРНЫЙ МОСТ* (WAR BRIDGE)\n\n## Данные из перечня\n\n- **Название:** ВОЕННОЕ КРЫЛО ДВИЖЕНИЯ ЧЕРНЫЙ МОСТ* (WAR BRIDGE)\n- **Алиасы:** WAR BRIDGE\n- **В списке:** да\n\n- **Исходная строка:** `ВОЕННОЕ КРЫЛО ДВИЖЕНИЯ ЧЕРНЫЙ МОСТ* (WAR BRIDGE),`\n\n"
+}

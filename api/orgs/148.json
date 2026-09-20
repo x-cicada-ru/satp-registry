@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 148,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ТЮРЬМА НАРОДОВ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 148\nname: \"ДВИЖЕНИЕ ТЮРЬМА НАРОДОВ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ ТЮРЬМА НАРОДОВ\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ТЮРЬМА НАРОДОВ\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ ТЮРЬМА НАРОДОВ* ,`\n\n"
+}

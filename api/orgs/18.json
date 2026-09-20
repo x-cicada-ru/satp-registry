@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 18,
+    "type": "org",
+    "name": "АНТИВОЕННОЕ ЭТНИЧЕСКОЕ ДВИЖЕНИЕ НОВАЯ ТЫВА (NEW TUVA)",
+    "aliases": [
+      "NEW TUVA"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 18\nname: \"АНТИВОЕННОЕ ЭТНИЧЕСКОЕ ДВИЖЕНИЕ НОВАЯ ТЫВА (NEW TUVA)\"\naliases: [\"NEW TUVA\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# АНТИВОЕННОЕ ЭТНИЧЕСКОЕ ДВИЖЕНИЕ НОВАЯ ТЫВА (NEW TUVA)\n\n## Данные из перечня\n\n- **Название:** АНТИВОЕННОЕ ЭТНИЧЕСКОЕ ДВИЖЕНИЕ НОВАЯ ТЫВА (NEW TUVA)\n- **Алиасы:** NEW TUVA\n- **В списке:** нет\n\n- **Исходная строка:** `АНТИВОЕННОЕ ЭТНИЧЕСКОЕ ДВИЖЕНИЕ НОВАЯ ТЫВА (NEW TUVA),`\n\n"
+}

@@ -1,0 +1,19 @@
+{
+  "record": {
+    "id": 5144,
+    "type": "person",
+    "name": "ГАНИЕВ ЗОХИДЖОН ВАЛИЖОН УГЛИ",
+    "aliases": [
+      "GANIEV ZOHIDZHON VALIZHON UGLI"
+    ],
+    "last_name": "ГАНИЕВ",
+    "first_name": "ЗОХИДЖОН",
+    "middle_name": "ВАЛИЖОН УГЛИ",
+    "date_of_birth": "19.09.1994",
+    "year_of_birth": 1994,
+    "place_of_birth": "ПАХТААБАДСКИЙ РАЙОН РЕСПУБЛИКИ УЗБЕКИСТАН",
+    "letter": "Г",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 5144\nfullName: \"ГАНИЕВ ЗОХИДЖОН ВАЛИЖОН УГЛИ\"\naliases: [\"GANIEV ZOHIDZHON VALIZHON UGLI\"]\ndateOfBirth: \"19.09.1994\"\nplaceOfBirth: \"ПАХТААБАДСКИЙ РАЙОН РЕСПУБЛИКИ УЗБЕКИСТАН\"\nmarked: true\n---\n# ГАНИЕВ ЗОХИДЖОН ВАЛИЖОН УГЛИ\n\n## Данные из перечня\n\n- **ФИО:** ГАНИЕВ ЗОХИДЖОН ВАЛИЖОН УГЛИ\n- **Алиасы:** GANIEV ZOHIDZHON VALIZHON UGLI\n- **Дата рождения:** 19.09.1994\n- **Место рождения:** ПАХТААБАДСКИЙ РАЙОН РЕСПУБЛИКИ УЗБЕКИСТАН\n- **В списке:** да\n\n- **Исходная строка:** `ГАНИЕВ ЗОХИДЖОН ВАЛИЖОН УГЛИ*, (GANIEV ZOHIDZHON VALIZHON UGLI), 19.09.1994 г.р. , ПАХТААБАДСКИЙ РАЙОН РЕСПУБЛИКИ УЗБЕКИСТАН`\n\n"
+}

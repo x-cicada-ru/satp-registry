@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 175,
+    "type": "org",
+    "name": "КАВКАЗСКИЙ ЛЕГИОН",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 175\nname: \"КАВКАЗСКИЙ ЛЕГИОН\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# КАВКАЗСКИЙ ЛЕГИОН\n\n## Данные из перечня\n\n- **Название:** КАВКАЗСКИЙ ЛЕГИОН\n- **В списке:** да\n\n- **Исходная строка:** `КАВКАЗСКИЙ ЛЕГИОН* ,`\n\n"
+}

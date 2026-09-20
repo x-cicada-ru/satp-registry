@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 51,
+    "type": "org",
+    "name": "ВСЕМИРНЫЙ ЧЕЧЕНСКИЙ КОНГРЕСС",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 51\nname: \"ВСЕМИРНЫЙ ЧЕЧЕНСКИЙ КОНГРЕСС\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ВСЕМИРНЫЙ ЧЕЧЕНСКИЙ КОНГРЕСС\n\n## Данные из перечня\n\n- **Название:** ВСЕМИРНЫЙ ЧЕЧЕНСКИЙ КОНГРЕСС\n- **В списке:** нет\n\n- **Исходная строка:** `ВСЕМИРНЫЙ ЧЕЧЕНСКИЙ КОНГРЕСС ,`\n\n"
+}

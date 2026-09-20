@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 100,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ЗЕЛЕНЫЙ КЛИН - МОЯ БАТКIВЩИНА",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 100\nname: \"ДВИЖЕНИЕ ЗЕЛЕНЫЙ КЛИН - МОЯ БАТКIВЩИНА\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ДВИЖЕНИЕ ЗЕЛЕНЫЙ КЛИН - МОЯ БАТКIВЩИНА\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ЗЕЛЕНЫЙ КЛИН - МОЯ БАТКIВЩИНА\n- **В списке:** нет\n\n- **Исходная строка:** `ДВИЖЕНИЕ ЗЕЛЕНЫЙ КЛИН - МОЯ БАТКIВЩИНА ,`\n\n"
+}

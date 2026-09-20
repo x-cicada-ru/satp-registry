@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 9711,
+    "type": "person",
+    "name": "КИТАЕВ ИГОРЬ ИГОРЕВИЧ",
+    "aliases": [],
+    "last_name": "КИТАЕВ",
+    "first_name": "ИГОРЬ",
+    "middle_name": "ИГОРЕВИЧ",
+    "date_of_birth": "26.05.1999",
+    "year_of_birth": 1999,
+    "place_of_birth": null,
+    "letter": "К",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 9711\nfullName: \"КИТАЕВ ИГОРЬ ИГОРЕВИЧ\"\naliases: []\ndateOfBirth: \"26.05.1999\"\nplaceOfBirth: null\nmarked: true\n---\n# КИТАЕВ ИГОРЬ ИГОРЕВИЧ\n\n## Данные из перечня\n\n- **ФИО:** КИТАЕВ ИГОРЬ ИГОРЕВИЧ\n- **Дата рождения:** 26.05.1999\n- **В списке:** да\n\n- **Исходная строка:** `КИТАЕВ ИГОРЬ ИГОРЕВИЧ*, 26.05.1999 г.р.`\n\n"
+}

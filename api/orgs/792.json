@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 792,
+    "type": "org",
+    "name": "ПРОЕКТ ЕВРЕЙСКАЯ РЕСПУБЛИКА",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 792\nname: \"ПРОЕКТ ЕВРЕЙСКАЯ РЕСПУБЛИКА\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ПРОЕКТ ЕВРЕЙСКАЯ РЕСПУБЛИКА\n\n## Данные из перечня\n\n- **Название:** ПРОЕКТ ЕВРЕЙСКАЯ РЕСПУБЛИКА\n- **В списке:** да\n\n- **Исходная строка:** `ПРОЕКТ ЕВРЕЙСКАЯ РЕСПУБЛИКА* ,`\n\n"
+}

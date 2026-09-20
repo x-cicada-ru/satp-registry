@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 5408,
+    "type": "person",
+    "name": "ГЕРДАН ХЬЮГО",
+    "aliases": [],
+    "last_name": "ГЕРДАН",
+    "first_name": "ХЬЮГО",
+    "middle_name": "",
+    "date_of_birth": "30.04.1958",
+    "year_of_birth": 1958,
+    "place_of_birth": null,
+    "letter": "Г",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 5408\nfullName: \"ГЕРДАН ХЬЮГО\"\naliases: []\ndateOfBirth: \"30.04.1958\"\nplaceOfBirth: null\nmarked: true\n---\n# ГЕРДАН ХЬЮГО\n\n## Данные из перечня\n\n- **ФИО:** ГЕРДАН ХЬЮГО\n- **Дата рождения:** 30.04.1958\n- **В списке:** да\n\n- **Исходная строка:** `ГЕРДАН ХЬЮГО*, 30.04.1958 г.р.`\n\n"
+}

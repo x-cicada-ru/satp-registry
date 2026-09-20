@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 738,
+    "type": "org",
+    "name": "ОБЪЕДИНЕНИЕ АЗАТЛЫК/СВОБОДА",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 738\nname: \"ОБЪЕДИНЕНИЕ АЗАТЛЫК/СВОБОДА\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ОБЪЕДИНЕНИЕ АЗАТЛЫК/СВОБОДА\n\n## Данные из перечня\n\n- **Название:** ОБЪЕДИНЕНИЕ АЗАТЛЫК/СВОБОДА\n- **В списке:** да\n\n- **Исходная строка:** `ОБЪЕДИНЕНИЕ АЗАТЛЫК/СВОБОДА* ,`\n\n"
+}

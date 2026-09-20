@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 777,
+    "type": "org",
+    "name": "ПАРТИЗАНСКОЕ ДВИЖЕНИЕ СКРЕПАЧЪ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 777\nname: \"ПАРТИЗАНСКОЕ ДВИЖЕНИЕ СКРЕПАЧЪ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ПАРТИЗАНСКОЕ ДВИЖЕНИЕ СКРЕПАЧЪ\n\n## Данные из перечня\n\n- **Название:** ПАРТИЗАНСКОЕ ДВИЖЕНИЕ СКРЕПАЧЪ\n- **В списке:** да\n\n- **Исходная строка:** `ПАРТИЗАНСКОЕ ДВИЖЕНИЕ СКРЕПАЧЪ* ,`\n\n"
+}

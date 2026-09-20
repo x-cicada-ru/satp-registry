@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 25,
+    "type": "org",
+    "name": "БАЗА (АЛЬ-КАИДА)",
+    "aliases": [
+      "АЛЬ-КАИДА"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 25\nname: \"БАЗА (АЛЬ-КАИДА)\"\naliases: [\"АЛЬ-КАИДА\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# БАЗА (АЛЬ-КАИДА)\n\n## Данные из перечня\n\n- **Название:** БАЗА (АЛЬ-КАИДА)\n- **Алиасы:** АЛЬ-КАИДА\n- **В списке:** да\n\n- **Исходная строка:** `БАЗА (АЛЬ-КАИДА)* ,`\n\n"
+}

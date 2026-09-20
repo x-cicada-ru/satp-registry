@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 24,
+    "type": "org",
+    "name": "АХЛЮ СУННА ВАЛЬ ДЖАМАА",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 24\nname: \"АХЛЮ СУННА ВАЛЬ ДЖАМАА\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# АХЛЮ СУННА ВАЛЬ ДЖАМАА\n\n## Данные из перечня\n\n- **Название:** АХЛЮ СУННА ВАЛЬ ДЖАМАА\n- **В списке:** да\n\n- **Исходная строка:** `АХЛЮ СУННА ВАЛЬ ДЖАМАА* ,`\n\n"
+}

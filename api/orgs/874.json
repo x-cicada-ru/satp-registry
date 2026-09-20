@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 874,
+    "type": "org",
+    "name": "ФОНД СВОБОДНАЯ БУРЯТИЯ (FREE BURYATIA FOUNDATION)",
+    "aliases": [
+      "FREE BURYATIA FOUNDATION"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 874\nname: \"ФОНД СВОБОДНАЯ БУРЯТИЯ (FREE BURYATIA FOUNDATION)\"\naliases: [\"FREE BURYATIA FOUNDATION\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ФОНД СВОБОДНАЯ БУРЯТИЯ (FREE BURYATIA FOUNDATION)\n\n## Данные из перечня\n\n- **Название:** ФОНД СВОБОДНАЯ БУРЯТИЯ (FREE BURYATIA FOUNDATION)\n- **Алиасы:** FREE BURYATIA FOUNDATION\n- **В списке:** нет\n\n- **Исходная строка:** `ФОНД СВОБОДНАЯ БУРЯТИЯ (FREE BURYATIA FOUNDATION),`\n\n"
+}

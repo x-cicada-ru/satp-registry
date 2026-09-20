@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 6474,
+    "type": "person",
+    "name": "ДЕРМАН НАРИМАН МАМЕТОВИЧ",
+    "aliases": [],
+    "last_name": "ДЕРМАН",
+    "first_name": "НАРИМАН",
+    "middle_name": "МАМЕТОВИЧ",
+    "date_of_birth": "01.06.1967",
+    "year_of_birth": 1967,
+    "place_of_birth": null,
+    "letter": "Д",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 6474\nfullName: \"ДЕРМАН НАРИМАН МАМЕТОВИЧ\"\naliases: []\ndateOfBirth: \"01.06.1967\"\nplaceOfBirth: null\nmarked: true\n---\n# ДЕРМАН НАРИМАН МАМЕТОВИЧ\n\n## Данные из перечня\n\n- **ФИО:** ДЕРМАН НАРИМАН МАМЕТОВИЧ\n- **Дата рождения:** 01.06.1967\n- **В списке:** да\n\n- **Исходная строка:** `ДЕРМАН НАРИМАН МАМЕТОВИЧ*, 01.06.1967 г.р.`\n\n"
+}

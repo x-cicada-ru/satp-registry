@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 194,
+    "type": "org",
+    "name": "КОНГРЕСС БУРЯТСКОГО НАРОДА",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 194\nname: \"КОНГРЕСС БУРЯТСКОГО НАРОДА\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# КОНГРЕСС БУРЯТСКОГО НАРОДА\n\n## Данные из перечня\n\n- **Название:** КОНГРЕСС БУРЯТСКОГО НАРОДА\n- **В списке:** да\n\n- **Исходная строка:** `КОНГРЕСС БУРЯТСКОГО НАРОДА* ,`\n\n"
+}

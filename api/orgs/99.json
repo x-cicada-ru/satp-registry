@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 99,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ЗЕЛЕНАЯ ЖАНДАРМЕРИЯ 2.0",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 99\nname: \"ДВИЖЕНИЕ ЗЕЛЕНАЯ ЖАНДАРМЕРИЯ 2.0\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ ЗЕЛЕНАЯ ЖАНДАРМЕРИЯ 2.0\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ЗЕЛЕНАЯ ЖАНДАРМЕРИЯ 2.0\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ ЗЕЛЕНАЯ ЖАНДАРМЕРИЯ 2.0* ,`\n\n"
+}

@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 3952,
+    "type": "person",
+    "name": "БУРДУЛИ РАТИ",
+    "aliases": [],
+    "last_name": "БУРДУЛИ",
+    "first_name": "РАТИ",
+    "middle_name": "",
+    "date_of_birth": "19.12.1994",
+    "year_of_birth": 1994,
+    "place_of_birth": "ГРУЗИЯ",
+    "letter": "Б",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 3952\nfullName: \"БУРДУЛИ РАТИ\"\naliases: []\ndateOfBirth: \"19.12.1994\"\nplaceOfBirth: \"ГРУЗИЯ\"\nmarked: true\n---\n# БУРДУЛИ РАТИ\n\n## Данные из перечня\n\n- **ФИО:** БУРДУЛИ РАТИ\n- **Дата рождения:** 19.12.1994\n- **Место рождения:** ГРУЗИЯ\n- **В списке:** да\n\n- **Исходная строка:** `БУРДУЛИ РАТИ*, 19.12.1994 г.р. , ГРУЗИЯ`\n\n"
+}

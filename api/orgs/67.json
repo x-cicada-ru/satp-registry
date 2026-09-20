@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 67,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ SUUR SUOMI – GREAT FINLAND* (ВЕЛИКАЯ ФИНЛЯНДИЯ)",
+    "aliases": [
+      "ВЕЛИКАЯ ФИНЛЯНДИЯ"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 67\nname: \"ДВИЖЕНИЕ SUUR SUOMI – GREAT FINLAND* (ВЕЛИКАЯ ФИНЛЯНДИЯ)\"\naliases: [\"ВЕЛИКАЯ ФИНЛЯНДИЯ\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ SUUR SUOMI – GREAT FINLAND* (ВЕЛИКАЯ ФИНЛЯНДИЯ)\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ SUUR SUOMI – GREAT FINLAND* (ВЕЛИКАЯ ФИНЛЯНДИЯ)\n- **Алиасы:** ВЕЛИКАЯ ФИНЛЯНДИЯ\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ SUUR SUOMI – GREAT FINLAND* (ВЕЛИКАЯ ФИНЛЯНДИЯ),`\n\n"
+}

@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 139,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ СЕВЕРНОЕ БРАТСТВО",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 139\nname: \"ДВИЖЕНИЕ СЕВЕРНОЕ БРАТСТВО\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ СЕВЕРНОЕ БРАТСТВО\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ СЕВЕРНОЕ БРАТСТВО\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ СЕВЕРНОЕ БРАТСТВО* ,`\n\n"
+}

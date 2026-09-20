@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 823,
+    "type": "org",
+    "name": "СВОБОДНЫЙ ИДЕЛЬ-УРАЛ* (FREE IDEL-URAL; КОНФЕДЕРАЦИЯ ИДЕЛЬ-УРАЛ)",
+    "aliases": [
+      "FREE IDEL-URAL",
+      "КОНФЕДЕРАЦИЯ ИДЕЛЬ-УРАЛ"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 823\nname: \"СВОБОДНЫЙ ИДЕЛЬ-УРАЛ* (FREE IDEL-URAL; КОНФЕДЕРАЦИЯ ИДЕЛЬ-УРАЛ)\"\naliases: [\"FREE IDEL-URAL\", \"КОНФЕДЕРАЦИЯ ИДЕЛЬ-УРАЛ\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# СВОБОДНЫЙ ИДЕЛЬ-УРАЛ* (FREE IDEL-URAL; КОНФЕДЕРАЦИЯ ИДЕЛЬ-УРАЛ)\n\n## Данные из перечня\n\n- **Название:** СВОБОДНЫЙ ИДЕЛЬ-УРАЛ* (FREE IDEL-URAL; КОНФЕДЕРАЦИЯ ИДЕЛЬ-УРАЛ)\n- **Алиасы:** FREE IDEL-URAL; КОНФЕДЕРАЦИЯ ИДЕЛЬ-УРАЛ\n- **В списке:** да\n\n- **Исходная строка:** `СВОБОДНЫЙ ИДЕЛЬ-УРАЛ* (FREE IDEL-URAL; КОНФЕДЕРАЦИЯ ИДЕЛЬ-УРАЛ),`\n\n"
+}

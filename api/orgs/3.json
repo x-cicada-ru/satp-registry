@@ -1,0 +1,20 @@
+{
+  "record": {
+    "id": 3,
+    "type": "org",
+    "name": "NATIONAL SOCIALISM/WHITE POWER* (NS/WP; NS/WP CREW; NS/WP GREW SPARROWS; SPARROWS CREW/WHITE POWER; НАЦИОНАЛ-СОЦИАЛИЗМ/БЕЛАЯ СИЛА, ВЛАСТЬ)",
+    "aliases": [
+      "NS/WP",
+      "NS/WP CREW",
+      "NS/WP GREW SPARROWS",
+      "SPARROWS CREW/WHITE POWER",
+      "НАЦИОНАЛ-СОЦИАЛИЗМ/БЕЛАЯ СИЛА, ВЛАСТЬ"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 3\nname: \"NATIONAL SOCIALISM/WHITE POWER* (NS/WP; NS/WP CREW; NS/WP GREW SPARROWS; SPARROWS CREW/WHITE POWER; НАЦИОНАЛ-СОЦИАЛИЗМ/БЕЛАЯ СИЛА, ВЛАСТЬ)\"\naliases: [\"NS/WP\", \"NS/WP CREW\", \"NS/WP GREW SPARROWS\", \"SPARROWS CREW/WHITE POWER\", \"НАЦИОНАЛ-СОЦИАЛИЗМ/БЕЛАЯ СИЛА, ВЛАСТЬ\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# NATIONAL SOCIALISM/WHITE POWER* (NS/WP; NS/WP CREW; NS/WP GREW SPARROWS; SPARROWS CREW/WHITE POWER; НАЦИОНАЛ-СОЦИАЛИЗМ/БЕЛАЯ СИЛА, ВЛАСТЬ)\n\n## Данные из перечня\n\n- **Название:** NATIONAL SOCIALISM/WHITE POWER* (NS/WP; NS/WP CREW; NS/WP GREW SPARROWS; SPARROWS CREW/WHITE POWER; НАЦИОНАЛ-СОЦИАЛИЗМ/БЕЛАЯ СИЛА, ВЛАСТЬ)\n- **Алиасы:** NS/WP; NS/WP CREW; NS/WP GREW SPARROWS; SPARROWS CREW/WHITE POWER; НАЦИОНАЛ-СОЦИАЛИЗМ/БЕЛАЯ СИЛА, ВЛАСТЬ\n- **В списке:** да\n\n- **Исходная строка:** `NATIONAL SOCIALISM/WHITE POWER* (NS/WP; NS/WP CREW; NS/WP GREW SPARROWS; SPARROWS CREW/WHITE POWER; НАЦИОНАЛ-СОЦИАЛИЗМ/БЕЛАЯ СИЛА, ВЛАСТЬ),`\n\n"
+}

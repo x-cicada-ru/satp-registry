@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SATP Registry · публичный API</title>
+<style>
+  :root{--ink:#1a1a1a;--muted:#666;--line:#ddd;--accent:#0b5cab;--bg:#fff}
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.55 -apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  header{padding:2rem 1rem;border-bottom:1px solid var(--line)}
+  main{max-width:960px;margin:0 auto;padding:1.5rem 1rem 4rem}
+  h1{font-size:1.6rem;margin:0 0 .25rem}
+  p.sub{margin:.25rem 0 0;color:var(--muted)}
+  code{background:#f4f4f4;border:1px solid var(--line);border-radius:4px;padding:.1rem .35rem;font-size:.9em}
+  pre{background:#f7f7f7;border:1px solid var(--line);border-radius:6px;padding:.75rem 1rem;overflow:auto;font-size:.85rem}
+  table{border-collapse:collapse;width:100%;margin:.5rem 0 1.5rem}
+  th,td{text-align:left;padding:.4rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-weight:600}
+  input[type=search]{width:100%;max-width:480px;font:inherit;padding:.5rem .7rem;border:1px solid var(--line);border-radius:6px}
+  .meta{color:var(--muted);font-size:.9rem}
+  #results{margin-top:1rem}
+  #results table td:nth-child(2){max-width:420px;overflow-wrap:break-word}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<header>
+  <div style="max-width:960px;margin:0 auto">
+    <h1>SATP Registry — публичный API</h1>
+    <p class="sub">Перечень организаций и физических лиц. Без ключа, без регистрации.</p>
+  </div>
+</header>
+<main>
+  <p>Статический API на GitHub Pages. Все эндпоинты — обычные JSON-файлы:
+  <code>curl https://x-cicada-ru.github.io/satp-registry/api/people/1.json</code></p>
+
+  <h2>Эндпоинты</h2>
+  <table>
+    <tr><th>Метод и путь</th><th>Назначение</th></tr>
+    <tr><td><code>GET /api/health.json</code></td><td>Проверка доступности</td></tr>
+    <tr><td><code>GET /api/stats.json</code></td><td>Статистика реестра</td></tr>
+    <tr><td><code>GET /api/manifest.json</code></td><td>Описание API</td></tr>
+    <tr><td><code>GET /api/people/index.json</code></td><td>Все физлица (сводки)</td></tr>
+    <tr><td><code>GET /api/people/letter/А.json … /Я.json</code></td><td>Сводки по букве раздела</td></tr>
+    <tr><td><code>GET /api/people/{id}.json</code></td><td>Карточка физлица + полный текст</td></tr>
+    <tr><td><code>GET /api/orgs/index.json</code></td><td>Все организации (сводки)</td></tr>
+    <tr><td><code>GET /api/orgs/{id}.json</code></td><td>Карточка организации + полный текст</td></tr>
+  </table>
+
+  <h2>Поля записи</h2>
+  <table>
+    <tr><th>Поле</th><th>Описание</th></tr>
+    <tr><td><code>id</code></td><td>Числовой идентификатор</td></tr>
+    <tr><td><code>name</code></td><td>Полное имя/название</td></tr>
+    <tr><td><code>aliases</code></td><td>Псевдонимы</td></tr>
+    <tr><td>Физлицо</td><td><code>last_name</code>, <code>first_name</code>, <code>middle_name</code>, <code>date_of_birth</code>, <code>year_of_birth</code>, <code>place_of_birth</code>, <code>letter</code></td></tr>
+    <tr><td>Организация</td><td><code>country</code>, <code>inn</code>, <code>ogrn</code>, <code>date</code></td></tr>
+    <tr><td><code>marked</code></td><td>Признак (true/false)</td></tr>
+    <tr><td><code>body</code></td><td>Полный текст записи (только в карточках {id}.json)</td></tr>
+  </table>
+
+  <h2>Примеры (curl)</h2>
+  <pre>
+# Статистика реестра
+curl https://x-cicada-ru.github.io/satp-registry/api/stats.json
+
+# Все люди (сводки), 22 915 записей
+curl https://x-cicada-ru.github.io/satp-registry/api/people/index.json
+
+# Только буква «А»
+curl https://x-cicada-ru.github.io/satp-registry/api/people/letter/А.json
+
+# Карточка с полным текстом
+curl https://x-cicada-ru.github.io/satp-registry/api/people/1.json
+
+# «Поиск по параметрам» в браузере — ниже по этой странице
+  </pre>
+
+  <h2>Поиск по параметрам (в браузере)</h2>
+  <p class="meta">GitHub Pages не умеет фильтровать серверным запросом, поэтому
+  полноценный поиск выполняется здесь — на вашей стороне: скачиваются сводки нужной
+  буквы и фильтруются по тем же полям, что были бы в API-параметрах. Работает офлайн после первой загрузки.</p>
+  <input type="search" id="q" placeholder="q · name · last_name · first_name · middle_name · yob · place · letter · marked · alias"
+    autocomplete="off" value="">
+  <p id="status" class="meta"></p>
+  <div id="results"></div>
+</main>
+<script>
+const BASE = "https://x-cicada-ru.github.io/satp-registry/api/people";
+const LETTERS = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЭЮЯ".split("");
+const cache = new Map();
+let all = [];
+let timer = null;
+
+function norm(s){ return (s || "").toUpperCase().replace(/Ё/g, "Е").trim(); }
+
+async function loadLetter(l){
+  if (cache.has(l)) return cache.get(l);
+  const r = await fetch(BASE + "/letter/" + l + ".json");
+  const a = await r.json();
+  cache.set(l, a);
+  return a;
+}
+
+async function gatherAll(){
+  const out = [];
+  await Promise.all(LETTERS.map(async (l) => {
+    out.push.apply(out, await loadLetter(l));
+  }));
+  all = out;
+}
+
+function filter(rec, p){
+  if (p.q && ![rec.name, ...(rec.aliases||[]), rec.place_of_birth, ""].some(h => norm(h).includes(norm(p.q)))) return false;
+  if (p.name && !norm(rec.name).includes(norm(p.name))) return false;
+  if (p.last_name && !norm(rec.last_name).includes(norm(p.last_name))) return false;
+  if (p.first_name && !norm(rec.first_name).includes(norm(p.first_name))) return false;
+  if (p.middle_name && !norm(rec.middle_name).includes(norm(p.middle_name))) return false;
+  if (p.yob && rec.year_of_birth != p.yob) return false;
+  if (p.place && !norm(rec.place_of_birth).includes(norm(p.place))) return false;
+  if (p.letter && rec.letter !== p.letter.toUpperCase()) return false;
+  if (p.alias && !(rec.aliases||[]).some(a => norm(a).includes(norm(p.alias)))) return false;
+  if (p.marked != null) {
+    const want = ["1","true","да","yes","on"].includes(String(p.marked).toLowerCase());
+    if (!!rec.marked !== want) return false;
+  }
+  return true;
+}
+
+async function render(params){
+  const status = document.getElementById("status");
+  const box = document.getElementById("results");
+  const sp = new URLSearchParams(params);
+  const hasFilter = [...sp.keys()].some(k => sp.get(k));
+  const joined = !hasFilter
+    ? all
+    : all.filter(r => filter(r, { q: sp.get("q"), name: sp.get("name"), last_name: sp.get("last_name"),
+        first_name: sp.get("first_name"), middle_name: sp.get("middle_name"), yob: sp.get("yob"),
+        place: sp.get("place"), letter: sp.get("letter"), alias: sp.get("alias"), marked: sp.get("marked") }));
+  status.textContent = joined.length + " записей";
+  const slice = joined.slice(0, 500);
+  const rows = slice.map(r =>
+    "<tr><td>#" + r.id + "</td><td><a href='" + BASE + "/" + r.id + ".json'>" + r.name + "</a>" +
+    (r.marked ? "<span class=meta>&nbsp;marked</span>" : "") + "</td>" +
+    "<td>" + (r.date_of_birth || "—") + "</td><td>" + (r.place_of_birth || "—") + "</td></tr>").join("");
+  box.innerHTML = "<table><tr><th>ID</th><th>Имя</th><th>Дата рождения</th><th>Место рождения</th></tr>" + rows + "</table>"
+    + (joined.length > 500 ? "<p class=meta>показано 500 из " + joined.length + "</p>" : "");
+}
+
+const input = document.getElementById("q");
+function fromInput(){
+  const sp = new URLSearchParams();
+  if (input.value.trim()) sp.set("q", input.value.trim());
+  history.replaceState(null, "", "/satp-registry/?" + sp.toString());
+  render(sp);
+}
+input.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(fromInput, 250); });
+
+(async function init(){
+  var sp = new URLSearchParams(location.search);
+  if (sp.get("q")) input.value = sp.get("q");
+  await gatherAll();
+  history.replaceState(null, "", "/satp-registry/?" + sp.toString());
+  render(sp);
+})();
+</script>
+</body>
+</html>

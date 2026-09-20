@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 840,
+    "type": "org",
+    "name": "ТВЕРСКОЙ МЕМОРИАЛ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 840\nname: \"ТВЕРСКОЙ МЕМОРИАЛ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ТВЕРСКОЙ МЕМОРИАЛ\n\n## Данные из перечня\n\n- **Название:** ТВЕРСКОЙ МЕМОРИАЛ\n- **В списке:** нет\n\n- **Исходная строка:** `ТВЕРСКОЙ МЕМОРИАЛ ,`\n\n"
+}

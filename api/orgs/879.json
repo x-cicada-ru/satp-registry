@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 879,
+    "type": "org",
+    "name": "ХАТЛОНСКИЙ ДЖАМААТ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 879\nname: \"ХАТЛОНСКИЙ ДЖАМААТ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ХАТЛОНСКИЙ ДЖАМААТ\n\n## Данные из перечня\n\n- **Название:** ХАТЛОНСКИЙ ДЖАМААТ\n- **В списке:** да\n\n- **Исходная строка:** `ХАТЛОНСКИЙ ДЖАМААТ* ,`\n\n"
+}

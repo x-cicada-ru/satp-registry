@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 168,
+    "type": "org",
+    "name": "ИНГУШСКАЯ ОСВОБОДИТЕЛЬНАЯ АРМИЯ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 168\nname: \"ИНГУШСКАЯ ОСВОБОДИТЕЛЬНАЯ АРМИЯ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ИНГУШСКАЯ ОСВОБОДИТЕЛЬНАЯ АРМИЯ\n\n## Данные из перечня\n\n- **Название:** ИНГУШСКАЯ ОСВОБОДИТЕЛЬНАЯ АРМИЯ\n- **В списке:** да\n\n- **Исходная строка:** `ИНГУШСКАЯ ОСВОБОДИТЕЛЬНАЯ АРМИЯ* ,`\n\n"
+}

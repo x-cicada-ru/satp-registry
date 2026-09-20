@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 1424,
+    "type": "person",
+    "name": "АЛМАНИС АНДРЮС",
+    "aliases": [],
+    "last_name": "АЛМАНИС",
+    "first_name": "АНДРЮС",
+    "middle_name": "",
+    "date_of_birth": "27.05.1965",
+    "year_of_birth": 1965,
+    "place_of_birth": null,
+    "letter": "А",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 1424\nfullName: \"АЛМАНИС АНДРЮС\"\naliases: []\ndateOfBirth: \"27.05.1965\"\nplaceOfBirth: null\nmarked: true\n---\n# АЛМАНИС АНДРЮС\n\n## Данные из перечня\n\n- **ФИО:** АЛМАНИС АНДРЮС\n- **Дата рождения:** 27.05.1965\n- **В списке:** да\n\n- **Исходная строка:** `АЛМАНИС АНДРЮС*, 27.05.1965 г.р.`\n\n"
+}

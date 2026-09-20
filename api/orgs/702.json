@@ -1,0 +1,20 @@
+{
+  "record": {
+    "id": 702,
+    "type": "org",
+    "name": "ОБЩЕСТВЕННОЕ ОБЪЕДИНЕНИЕ W.H.C. (SIBERIAN FRONT; WHITE HARDCOR CATS; WHITE HOOLIGANS CAPITAL; БЕЛЫЕ ХУЛИГАНЫ СТОЛИЦЫ; СИБИРСКИЙ ФРОНТ)",
+    "aliases": [
+      "SIBERIAN FRONT",
+      "WHITE HARDCOR CATS",
+      "WHITE HOOLIGANS CAPITAL",
+      "БЕЛЫЕ ХУЛИГАНЫ СТОЛИЦЫ",
+      "СИБИРСКИЙ ФРОНТ"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 702\nname: \"ОБЩЕСТВЕННОЕ ОБЪЕДИНЕНИЕ W.H.C. (SIBERIAN FRONT; WHITE HARDCOR CATS; WHITE HOOLIGANS CAPITAL; БЕЛЫЕ ХУЛИГАНЫ СТОЛИЦЫ; СИБИРСКИЙ ФРОНТ)\"\naliases: [\"SIBERIAN FRONT\", \"WHITE HARDCOR CATS\", \"WHITE HOOLIGANS CAPITAL\", \"БЕЛЫЕ ХУЛИГАНЫ СТОЛИЦЫ\", \"СИБИРСКИЙ ФРОНТ\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ОБЩЕСТВЕННОЕ ОБЪЕДИНЕНИЕ W.H.C. (SIBERIAN FRONT; WHITE HARDCOR CATS; WHITE HOOLIGANS CAPITAL; БЕЛЫЕ ХУЛИГАНЫ СТОЛИЦЫ; СИБИРСКИЙ ФРОНТ)\n\n## Данные из перечня\n\n- **Название:** ОБЩЕСТВЕННОЕ ОБЪЕДИНЕНИЕ W.H.C. (SIBERIAN FRONT; WHITE HARDCOR CATS; WHITE HOOLIGANS CAPITAL; БЕЛЫЕ ХУЛИГАНЫ СТОЛИЦЫ; СИБИРСКИЙ ФРОНТ)\n- **Алиасы:** SIBERIAN FRONT; WHITE HARDCOR CATS; WHITE HOOLIGANS CAPITAL; БЕЛЫЕ ХУЛИГАНЫ СТОЛИЦЫ; СИБИРСКИЙ ФРОНТ\n- **В списке:** нет\n\n- **Исходная строка:** `ОБЩЕСТВЕННОЕ ОБЪЕДИНЕНИЕ W.H.C. (SIBERIAN FRONT; WHITE HARDCOR CATS; WHITE HOOLIGANS CAPITAL; БЕЛЫЕ ХУЛИГАНЫ СТОЛИЦЫ; СИБИРСКИЙ ФРОНТ),`\n\n"
+}

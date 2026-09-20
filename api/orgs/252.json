@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 252,
+    "type": "org",
+    "name": "МЕМОРИАЛ ШВЕЙЦАРИЯ (MEMORIAL SWITZERLAND; АССОЦИАЦИЯ ШВЕЙЦАРСКИЙ МЕМОРИАЛ)",
+    "aliases": [
+      "MEMORIAL SWITZERLAND",
+      "АССОЦИАЦИЯ ШВЕЙЦАРСКИЙ МЕМОРИАЛ"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 252\nname: \"МЕМОРИАЛ ШВЕЙЦАРИЯ (MEMORIAL SWITZERLAND; АССОЦИАЦИЯ ШВЕЙЦАРСКИЙ МЕМОРИАЛ)\"\naliases: [\"MEMORIAL SWITZERLAND\", \"АССОЦИАЦИЯ ШВЕЙЦАРСКИЙ МЕМОРИАЛ\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# МЕМОРИАЛ ШВЕЙЦАРИЯ (MEMORIAL SWITZERLAND; АССОЦИАЦИЯ ШВЕЙЦАРСКИЙ МЕМОРИАЛ)\n\n## Данные из перечня\n\n- **Название:** МЕМОРИАЛ ШВЕЙЦАРИЯ (MEMORIAL SWITZERLAND; АССОЦИАЦИЯ ШВЕЙЦАРСКИЙ МЕМОРИАЛ)\n- **Алиасы:** MEMORIAL SWITZERLAND; АССОЦИАЦИЯ ШВЕЙЦАРСКИЙ МЕМОРИАЛ\n- **В списке:** нет\n\n- **Исходная строка:** `МЕМОРИАЛ ШВЕЙЦАРИЯ (MEMORIAL SWITZERLAND; АССОЦИАЦИЯ ШВЕЙЦАРСКИЙ МЕМОРИАЛ),`\n\n"
+}

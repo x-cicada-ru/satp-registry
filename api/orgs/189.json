@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 189,
+    "type": "org",
+    "name": "КОМИТЕТ БУРЯТСКОЙ НЕЗАВИСИМОСТИ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 189\nname: \"КОМИТЕТ БУРЯТСКОЙ НЕЗАВИСИМОСТИ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# КОМИТЕТ БУРЯТСКОЙ НЕЗАВИСИМОСТИ\n\n## Данные из перечня\n\n- **Название:** КОМИТЕТ БУРЯТСКОЙ НЕЗАВИСИМОСТИ\n- **В списке:** нет\n\n- **Исходная строка:** `КОМИТЕТ БУРЯТСКОЙ НЕЗАВИСИМОСТИ ,`\n\n"
+}

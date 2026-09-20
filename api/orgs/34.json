@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 34,
+    "type": "org",
+    "name": "БАШКИРСКАЯ АРМИЯ ОСВОБОЖДЕНИЯ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 34\nname: \"БАШКИРСКАЯ АРМИЯ ОСВОБОЖДЕНИЯ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# БАШКИРСКАЯ АРМИЯ ОСВОБОЖДЕНИЯ\n\n## Данные из перечня\n\n- **Название:** БАШКИРСКАЯ АРМИЯ ОСВОБОЖДЕНИЯ\n- **В списке:** да\n\n- **Исходная строка:** `БАШКИРСКАЯ АРМИЯ ОСВОБОЖДЕНИЯ* ,`\n\n"
+}

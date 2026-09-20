@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 38,
+    "type": "org",
+    "name": "БЕЛОРУССКИЙ МЕМОРИАЛ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 38\nname: \"БЕЛОРУССКИЙ МЕМОРИАЛ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# БЕЛОРУССКИЙ МЕМОРИАЛ\n\n## Данные из перечня\n\n- **Название:** БЕЛОРУССКИЙ МЕМОРИАЛ\n- **В списке:** нет\n\n- **Исходная строка:** `БЕЛОРУССКИЙ МЕМОРИАЛ ,`\n\n"
+}

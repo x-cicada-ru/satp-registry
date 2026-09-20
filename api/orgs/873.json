@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 873,
+    "type": "org",
+    "name": "ФОНД СВОБОДНАЯ БУРЯТИЯ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 873\nname: \"ФОНД СВОБОДНАЯ БУРЯТИЯ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ФОНД СВОБОДНАЯ БУРЯТИЯ\n\n## Данные из перечня\n\n- **Название:** ФОНД СВОБОДНАЯ БУРЯТИЯ\n- **В списке:** да\n\n- **Исходная строка:** `ФОНД СВОБОДНАЯ БУРЯТИЯ* ,`\n\n"
+}

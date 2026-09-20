@@ -1,0 +1,18 @@
+{
+  "record": {
+    "id": 16,
+    "type": "org",
+    "name": "АМЕРИКАНСКАЯ НЕКОММЕРЧЕСКАЯ КОРПОРАЦИЯ ANTI-CORRUPTION FOUNDATION, INC.* (ACF; ACF INTERNATIONAL; ФОНД БОРЬБЫ С КОРРУПЦИЕЙ, ИНК.)",
+    "aliases": [
+      "ACF",
+      "ACF INTERNATIONAL",
+      "ФОНД БОРЬБЫ С КОРРУПЦИЕЙ, ИНК."
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 16\nname: \"АМЕРИКАНСКАЯ НЕКОММЕРЧЕСКАЯ КОРПОРАЦИЯ ANTI-CORRUPTION FOUNDATION, INC.* (ACF; ACF INTERNATIONAL; ФОНД БОРЬБЫ С КОРРУПЦИЕЙ, ИНК.)\"\naliases: [\"ACF\", \"ACF INTERNATIONAL\", \"ФОНД БОРЬБЫ С КОРРУПЦИЕЙ, ИНК.\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# АМЕРИКАНСКАЯ НЕКОММЕРЧЕСКАЯ КОРПОРАЦИЯ ANTI-CORRUPTION FOUNDATION, INC.* (ACF; ACF INTERNATIONAL; ФОНД БОРЬБЫ С КОРРУПЦИЕЙ, ИНК.)\n\n## Данные из перечня\n\n- **Название:** АМЕРИКАНСКАЯ НЕКОММЕРЧЕСКАЯ КОРПОРАЦИЯ ANTI-CORRUPTION FOUNDATION, INC.* (ACF; ACF INTERNATIONAL; ФОНД БОРЬБЫ С КОРРУПЦИЕЙ, ИНК.)\n- **Алиасы:** ACF; ACF INTERNATIONAL; ФОНД БОРЬБЫ С КОРРУПЦИЕЙ, ИНК.\n- **В списке:** да\n\n- **Исходная строка:** `АМЕРИКАНСКАЯ НЕКОММЕРЧЕСКАЯ КОРПОРАЦИЯ ANTI-CORRUPTION FOUNDATION, INC.* (ACF; ACF INTERNATIONAL; ФОНД БОРЬБЫ С КОРРУПЦИЕЙ, ИНК.),`\n\n"
+}

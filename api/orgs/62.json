@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 62,
+    "type": "org",
+    "name": "ДАГЕСТАНСКИЙ НАЦИОНАЛЬНЫЙ ЦЕНТР",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 62\nname: \"ДАГЕСТАНСКИЙ НАЦИОНАЛЬНЫЙ ЦЕНТР\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДАГЕСТАНСКИЙ НАЦИОНАЛЬНЫЙ ЦЕНТР\n\n## Данные из перечня\n\n- **Название:** ДАГЕСТАНСКИЙ НАЦИОНАЛЬНЫЙ ЦЕНТР\n- **В списке:** да\n\n- **Исходная строка:** `ДАГЕСТАНСКИЙ НАЦИОНАЛЬНЫЙ ЦЕНТР* ,`\n\n"
+}

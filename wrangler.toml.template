@@ -1,8 +1,0 @@
-name = "satp-registry"
-main = "worker.mjs"
-compatibility_date = "2025-09-01"
-workers_dev = true
-
-kv_namespaces = [
-  { binding = "REG", id = "__NS_ID__" }
-]

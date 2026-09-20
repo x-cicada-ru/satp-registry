@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 203,
+    "type": "org",
+    "name": "ЛИГА СВОБОДНЫХ НАЦИЙ* (FREE NATIONS LEAGUE)",
+    "aliases": [
+      "FREE NATIONS LEAGUE"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 203\nname: \"ЛИГА СВОБОДНЫХ НАЦИЙ* (FREE NATIONS LEAGUE)\"\naliases: [\"FREE NATIONS LEAGUE\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ЛИГА СВОБОДНЫХ НАЦИЙ* (FREE NATIONS LEAGUE)\n\n## Данные из перечня\n\n- **Название:** ЛИГА СВОБОДНЫХ НАЦИЙ* (FREE NATIONS LEAGUE)\n- **Алиасы:** FREE NATIONS LEAGUE\n- **В списке:** да\n\n- **Исходная строка:** `ЛИГА СВОБОДНЫХ НАЦИЙ* (FREE NATIONS LEAGUE),`\n\n"
+}

@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 674,
+    "type": "org",
+    "name": "НЕЗАРЕГИСТРИРОВАННАЯ ИНОСТРАННАЯ ОРГАНИЗАЦИЯ СЪЕЗД НАРОДНЫХ ДЕПУТАТОВ (KONGRES DEPUTOWANYCH LUDOWYCH)",
+    "aliases": [
+      "KONGRES DEPUTOWANYCH LUDOWYCH"
+    ],
+    "country": "РЕСПУБЛИКА ПОЛЬША*",
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 674\nname: \"НЕЗАРЕГИСТРИРОВАННАЯ ИНОСТРАННАЯ ОРГАНИЗАЦИЯ СЪЕЗД НАРОДНЫХ ДЕПУТАТОВ (KONGRES DEPUTOWANYCH LUDOWYCH)\"\naliases: [\"KONGRES DEPUTOWANYCH LUDOWYCH\"]\ncountry: \"РЕСПУБЛИКА ПОЛЬША*\"\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# НЕЗАРЕГИСТРИРОВАННАЯ ИНОСТРАННАЯ ОРГАНИЗАЦИЯ СЪЕЗД НАРОДНЫХ ДЕПУТАТОВ (KONGRES DEPUTOWANYCH LUDOWYCH)\n\n## Данные из перечня\n\n- **Название:** НЕЗАРЕГИСТРИРОВАННАЯ ИНОСТРАННАЯ ОРГАНИЗАЦИЯ СЪЕЗД НАРОДНЫХ ДЕПУТАТОВ (KONGRES DEPUTOWANYCH LUDOWYCH)\n- **Алиасы:** KONGRES DEPUTOWANYCH LUDOWYCH\n- **Страна:** РЕСПУБЛИКА ПОЛЬША*\n- **В списке:** да\n\n- **Исходная строка:** `НЕЗАРЕГИСТРИРОВАННАЯ ИНОСТРАННАЯ ОРГАНИЗАЦИЯ СЪЕЗД НАРОДНЫХ ДЕПУТАТОВ (KONGRES DEPUTOWANYCH LUDOWYCH), РЕСПУБЛИКА ПОЛЬША* ,`\n\n"
+}

@@ -1,0 +1,18 @@
+{
+  "record": {
+    "id": 723,
+    "type": "org",
+    "name": "ОБЩЕСТВЕННОЕ ОБЪЕДИНЕНИЕ ФУТБОЛЬНЫХ БОЛЕЛЬЩИКОВ АВТОГРАД КРЮ (AUTOGRAD CREW; BLUE WHITE CREW; KAMAZ ULTRAS)",
+    "aliases": [
+      "AUTOGRAD CREW",
+      "BLUE WHITE CREW",
+      "KAMAZ ULTRAS"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 723\nname: \"ОБЩЕСТВЕННОЕ ОБЪЕДИНЕНИЕ ФУТБОЛЬНЫХ БОЛЕЛЬЩИКОВ АВТОГРАД КРЮ (AUTOGRAD CREW; BLUE WHITE CREW; KAMAZ ULTRAS)\"\naliases: [\"AUTOGRAD CREW\", \"BLUE WHITE CREW\", \"KAMAZ ULTRAS\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ОБЩЕСТВЕННОЕ ОБЪЕДИНЕНИЕ ФУТБОЛЬНЫХ БОЛЕЛЬЩИКОВ АВТОГРАД КРЮ (AUTOGRAD CREW; BLUE WHITE CREW; KAMAZ ULTRAS)\n\n## Данные из перечня\n\n- **Название:** ОБЩЕСТВЕННОЕ ОБЪЕДИНЕНИЕ ФУТБОЛЬНЫХ БОЛЕЛЬЩИКОВ АВТОГРАД КРЮ (AUTOGRAD CREW; BLUE WHITE CREW; KAMAZ ULTRAS)\n- **Алиасы:** AUTOGRAD CREW; BLUE WHITE CREW; KAMAZ ULTRAS\n- **В списке:** нет\n\n- **Исходная строка:** `ОБЩЕСТВЕННОЕ ОБЪЕДИНЕНИЕ ФУТБОЛЬНЫХ БОЛЕЛЬЩИКОВ АВТОГРАД КРЮ (AUTOGRAD CREW; BLUE WHITE CREW; KAMAZ ULTRAS),`\n\n"
+}

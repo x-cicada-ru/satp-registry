@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 41,
+    "type": "org",
+    "name": "БУРЯТСКИЙ ИНФОРМАЦИОННЫЙ ЦЕНТР",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 41\nname: \"БУРЯТСКИЙ ИНФОРМАЦИОННЫЙ ЦЕНТР\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# БУРЯТСКИЙ ИНФОРМАЦИОННЫЙ ЦЕНТР\n\n## Данные из перечня\n\n- **Название:** БУРЯТСКИЙ ИНФОРМАЦИОННЫЙ ЦЕНТР\n- **В списке:** да\n\n- **Исходная строка:** `БУРЯТСКИЙ ИНФОРМАЦИОННЫЙ ЦЕНТР* ,`\n\n"
+}

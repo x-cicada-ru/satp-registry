@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 812,
+    "type": "org",
+    "name": "РЕЛИГИОЗНОЕ ОБЪЕДИНЕНИЕ АУМ СИНРИКЕ* (AUM SHINRIKYO, AUM, ALEPH)",
+    "aliases": [
+      "AUM SHINRIKYO, AUM, ALEPH"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 812\nname: \"РЕЛИГИОЗНОЕ ОБЪЕДИНЕНИЕ АУМ СИНРИКЕ* (AUM SHINRIKYO, AUM, ALEPH)\"\naliases: [\"AUM SHINRIKYO, AUM, ALEPH\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# РЕЛИГИОЗНОЕ ОБЪЕДИНЕНИЕ АУМ СИНРИКЕ* (AUM SHINRIKYO, AUM, ALEPH)\n\n## Данные из перечня\n\n- **Название:** РЕЛИГИОЗНОЕ ОБЪЕДИНЕНИЕ АУМ СИНРИКЕ* (AUM SHINRIKYO, AUM, ALEPH)\n- **Алиасы:** AUM SHINRIKYO, AUM, ALEPH\n- **В списке:** да\n\n- **Исходная строка:** `РЕЛИГИОЗНОЕ ОБЪЕДИНЕНИЕ АУМ СИНРИКЕ* (AUM SHINRIKYO, AUM, ALEPH),`\n\n"
+}

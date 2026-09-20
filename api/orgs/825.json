@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 825,
+    "type": "org",
+    "name": "СЕВЕРНЫЙ СОЮЗ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 825\nname: \"СЕВЕРНЫЙ СОЮЗ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# СЕВЕРНЫЙ СОЮЗ\n\n## Данные из перечня\n\n- **Название:** СЕВЕРНЫЙ СОЮЗ\n- **В списке:** да\n\n- **Исходная строка:** `СЕВЕРНЫЙ СОЮЗ* ,`\n\n"
+}

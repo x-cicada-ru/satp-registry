@@ -1,0 +1,20 @@
+{
+  "record": {
+    "id": 766,
+    "type": "person",
+    "name": "АДХАМОВ ЖОБИРХОН ИСМОИЛ УГЛИ",
+    "aliases": [
+      "ADKHAMOV JOBIRKHON",
+      "ADXAMOV JOBIRXON ISMOIL O'G'LI"
+    ],
+    "last_name": "АДХАМОВ",
+    "first_name": "ЖОБИРХОН",
+    "middle_name": "ИСМОИЛ УГЛИ",
+    "date_of_birth": "26.04.2000",
+    "year_of_birth": 2000,
+    "place_of_birth": "Г. НАМАНГАН НАМАНГАНСКОЙ ОБЛАСТИ РЕСПУБЛИКИ УЗБЕКИСТАН",
+    "letter": "А",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 766\nfullName: \"АДХАМОВ ЖОБИРХОН ИСМОИЛ УГЛИ\"\naliases: [\"ADKHAMOV JOBIRKHON\", \"ADXAMOV JOBIRXON ISMOIL O'G'LI\"]\ndateOfBirth: \"26.04.2000\"\nplaceOfBirth: \"Г. НАМАНГАН НАМАНГАНСКОЙ ОБЛАСТИ РЕСПУБЛИКИ УЗБЕКИСТАН\"\nmarked: true\n---\n# АДХАМОВ ЖОБИРХОН ИСМОИЛ УГЛИ\n\n## Данные из перечня\n\n- **ФИО:** АДХАМОВ ЖОБИРХОН ИСМОИЛ УГЛИ\n- **Алиасы:** ADKHAMOV JOBIRKHON; ADXAMOV JOBIRXON ISMOIL O'G'LI\n- **Дата рождения:** 26.04.2000\n- **Место рождения:** Г. НАМАНГАН НАМАНГАНСКОЙ ОБЛАСТИ РЕСПУБЛИКИ УЗБЕКИСТАН\n- **В списке:** да\n\n- **Исходная строка:** `АДХАМОВ ЖОБИРХОН ИСМОИЛ УГЛИ*, (ADKHAMOV JOBIRKHON; ADXAMOV JOBIRXON ISMOIL O'G'LI), 26.04.2000 г.р. , Г. НАМАНГАН НАМАНГАНСКОЙ ОБЛАСТИ РЕСПУБЛИКИ УЗБЕКИСТАН`\n\n"
+}

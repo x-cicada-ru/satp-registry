@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 58,
+    "type": "org",
+    "name": "ГРАЖДАНСКИЙ СОВЕТ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 58\nname: \"ГРАЖДАНСКИЙ СОВЕТ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ГРАЖДАНСКИЙ СОВЕТ\n\n## Данные из перечня\n\n- **Название:** ГРАЖДАНСКИЙ СОВЕТ\n- **В списке:** да\n\n- **Исходная строка:** `ГРАЖДАНСКИЙ СОВЕТ* ,`\n\n"
+}

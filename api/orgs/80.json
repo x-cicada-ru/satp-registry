@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 80,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ГОРСКАЯ РЕСПУБЛИКА",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 80\nname: \"ДВИЖЕНИЕ ГОРСКАЯ РЕСПУБЛИКА\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ ГОРСКАЯ РЕСПУБЛИКА\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ГОРСКАЯ РЕСПУБЛИКА\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ ГОРСКАЯ РЕСПУБЛИКА* ,`\n\n"
+}

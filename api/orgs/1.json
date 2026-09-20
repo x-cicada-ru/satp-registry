@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 1,
+    "type": "org",
+    "name": "FREE RUSSIA FOUNDATION",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 1\nname: \"FREE RUSSIA FOUNDATION\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# FREE RUSSIA FOUNDATION\n\n## Данные из перечня\n\n- **Название:** FREE RUSSIA FOUNDATION\n- **В списке:** нет\n\n- **Исходная строка:** `FREE RUSSIA FOUNDATION ,`\n\n"
+}

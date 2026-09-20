@@ -1,0 +1,22 @@
+{
+  "name": "SATP Registry static API (GitHub Pages)",
+  "description": "Ключевой статический API по перечню организаций и физических лиц. Без авторизации.",
+  "version": "1.0.0",
+  "built": "2026-09-20T20:24:54.195Z",
+  "base": "https://x-cicada-ru.github.io/satp-registry/api/",
+  "counts": {
+    "total": 23803,
+    "people": 22915,
+    "orgs": 888
+  },
+  "endpoints": {
+    "GET /api/health.json": "Проверка доступности",
+    "GET /api/manifest.json": "Описание API",
+    "GET /api/stats.json": "Статистика реестра",
+    "GET /api/people/index.json": "Все физические лица (сводки)",
+    "GET /api/people/letter/А.json … /api/people/letter/Я.json": "Сводки по букве раздела",
+    "GET /api/people/{id}.json": "Карточка физлица с полным текстом",
+    "GET /api/orgs/index.json": "Все организации (сводки)",
+    "GET /api/orgs/{id}.json": "Карточка организации с полным текстом"
+  }
+}

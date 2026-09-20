@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 881,
+    "type": "org",
+    "name": "ЧИСТОПОЛЬСКИЙ ДЖАМААТ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 881\nname: \"ЧИСТОПОЛЬСКИЙ ДЖАМААТ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ЧИСТОПОЛЬСКИЙ ДЖАМААТ\n\n## Данные из перечня\n\n- **Название:** ЧИСТОПОЛЬСКИЙ ДЖАМААТ\n- **В списке:** да\n\n- **Исходная строка:** `ЧИСТОПОЛЬСКИЙ ДЖАМААТ* ,`\n\n"
+}

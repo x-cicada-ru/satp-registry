@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 77,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ВОЛЬНЫЙ ВЫБОРГ* (VAPAA VIIPURI; ВЫБОРГСКАЯ РЕСПУБЛИКА)",
+    "aliases": [
+      "VAPAA VIIPURI",
+      "ВЫБОРГСКАЯ РЕСПУБЛИКА"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 77\nname: \"ДВИЖЕНИЕ ВОЛЬНЫЙ ВЫБОРГ* (VAPAA VIIPURI; ВЫБОРГСКАЯ РЕСПУБЛИКА)\"\naliases: [\"VAPAA VIIPURI\", \"ВЫБОРГСКАЯ РЕСПУБЛИКА\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ ВОЛЬНЫЙ ВЫБОРГ* (VAPAA VIIPURI; ВЫБОРГСКАЯ РЕСПУБЛИКА)\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ВОЛЬНЫЙ ВЫБОРГ* (VAPAA VIIPURI; ВЫБОРГСКАЯ РЕСПУБЛИКА)\n- **Алиасы:** VAPAA VIIPURI; ВЫБОРГСКАЯ РЕСПУБЛИКА\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ ВОЛЬНЫЙ ВЫБОРГ* (VAPAA VIIPURI; ВЫБОРГСКАЯ РЕСПУБЛИКА),`\n\n"
+}

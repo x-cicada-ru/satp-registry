@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 737,
+    "type": "org",
+    "name": "ОБЪЕДИНЕНИЕ АБОРИГЕН ФОРУМ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 737\nname: \"ОБЪЕДИНЕНИЕ АБОРИГЕН ФОРУМ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ОБЪЕДИНЕНИЕ АБОРИГЕН ФОРУМ\n\n## Данные из перечня\n\n- **Название:** ОБЪЕДИНЕНИЕ АБОРИГЕН ФОРУМ\n- **В списке:** да\n\n- **Исходная строка:** `ОБЪЕДИНЕНИЕ АБОРИГЕН ФОРУМ* ,`\n\n"
+}

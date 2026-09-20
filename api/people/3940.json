@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 3940,
+    "type": "person",
+    "name": "БУРА РОМАН ЮРЬЕВИЧ",
+    "aliases": [],
+    "last_name": "БУРА",
+    "first_name": "РОМАН",
+    "middle_name": "ЮРЬЕВИЧ",
+    "date_of_birth": "08.04.2003",
+    "year_of_birth": 2003,
+    "place_of_birth": null,
+    "letter": "Б",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 3940\nfullName: \"БУРА РОМАН ЮРЬЕВИЧ\"\naliases: []\ndateOfBirth: \"08.04.2003\"\nplaceOfBirth: null\nmarked: true\n---\n# БУРА РОМАН ЮРЬЕВИЧ\n\n## Данные из перечня\n\n- **ФИО:** БУРА РОМАН ЮРЬЕВИЧ\n- **Дата рождения:** 08.04.2003\n- **В списке:** да\n\n- **Исходная строка:** `БУРА РОМАН ЮРЬЕВИЧ*, 08.04.2003 г.р.`\n\n"
+}

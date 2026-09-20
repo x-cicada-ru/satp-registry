@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 695,
+    "type": "org",
+    "name": "ОБЩЕСТВЕННОЕ ДВИЖЕНИЕ TULASKINS",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 695\nname: \"ОБЩЕСТВЕННОЕ ДВИЖЕНИЕ TULASKINS\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ОБЩЕСТВЕННОЕ ДВИЖЕНИЕ TULASKINS\n\n## Данные из перечня\n\n- **Название:** ОБЩЕСТВЕННОЕ ДВИЖЕНИЕ TULASKINS\n- **В списке:** нет\n\n- **Исходная строка:** `ОБЩЕСТВЕННОЕ ДВИЖЕНИЕ TULASKINS ,`\n\n"
+}

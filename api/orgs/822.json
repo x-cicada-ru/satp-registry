@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 822,
+    "type": "org",
+    "name": "СВОБОДНЫЙ ДАГЕСТАН",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 822\nname: \"СВОБОДНЫЙ ДАГЕСТАН\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# СВОБОДНЫЙ ДАГЕСТАН\n\n## Данные из перечня\n\n- **Название:** СВОБОДНЫЙ ДАГЕСТАН\n- **В списке:** нет\n\n- **Исходная строка:** `СВОБОДНЫЙ ДАГЕСТАН ,`\n\n"
+}

@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 791,
+    "type": "org",
+    "name": "ПРОЕКТ ДЕЛИМАЯ РОССИЯ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 791\nname: \"ПРОЕКТ ДЕЛИМАЯ РОССИЯ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ПРОЕКТ ДЕЛИМАЯ РОССИЯ\n\n## Данные из перечня\n\n- **Название:** ПРОЕКТ ДЕЛИМАЯ РОССИЯ\n- **В списке:** да\n\n- **Исходная строка:** `ПРОЕКТ ДЕЛИМАЯ РОССИЯ* ,`\n\n"
+}

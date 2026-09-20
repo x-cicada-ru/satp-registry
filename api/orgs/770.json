@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 770,
+    "type": "org",
+    "name": "ОРГАНИЗАЦИЯ ПРАВАЯ МОЛОДЕЖЬ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 770\nname: \"ОРГАНИЗАЦИЯ ПРАВАЯ МОЛОДЕЖЬ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ОРГАНИЗАЦИЯ ПРАВАЯ МОЛОДЕЖЬ\n\n## Данные из перечня\n\n- **Название:** ОРГАНИЗАЦИЯ ПРАВАЯ МОЛОДЕЖЬ\n- **В списке:** да\n\n- **Исходная строка:** `ОРГАНИЗАЦИЯ ПРАВАЯ МОЛОДЕЖЬ* ,`\n\n"
+}

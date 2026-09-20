@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 135,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ СВОБОДНЫЙ БАШКОРТОСТАН",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 135\nname: \"ДВИЖЕНИЕ СВОБОДНЫЙ БАШКОРТОСТАН\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ СВОБОДНЫЙ БАШКОРТОСТАН\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ СВОБОДНЫЙ БАШКОРТОСТАН\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ СВОБОДНЫЙ БАШКОРТОСТАН* ,`\n\n"
+}

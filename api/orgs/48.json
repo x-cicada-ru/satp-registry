@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 48,
+    "type": "org",
+    "name": "ВОЛЖСКАЯ БУЛГАРИЯ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 48\nname: \"ВОЛЖСКАЯ БУЛГАРИЯ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ВОЛЖСКАЯ БУЛГАРИЯ\n\n## Данные из перечня\n\n- **Название:** ВОЛЖСКАЯ БУЛГАРИЯ\n- **В списке:** нет\n\n- **Исходная строка:** `ВОЛЖСКАЯ БУЛГАРИЯ ,`\n\n"
+}

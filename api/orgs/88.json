@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 88,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ЕЗИКОВЫЙ ЕРТАУЛ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 88\nname: \"ДВИЖЕНИЕ ЕЗИКОВЫЙ ЕРТАУЛ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# ДВИЖЕНИЕ ЕЗИКОВЫЙ ЕРТАУЛ\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ЕЗИКОВЫЙ ЕРТАУЛ\n- **В списке:** нет\n\n- **Исходная строка:** `ДВИЖЕНИЕ ЕЗИКОВЫЙ ЕРТАУЛ ,`\n\n"
+}

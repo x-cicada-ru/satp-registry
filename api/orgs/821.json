@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 821,
+    "type": "org",
+    "name": "СВОБОДНОЕ ПОМОРЬЕ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 821\nname: \"СВОБОДНОЕ ПОМОРЬЕ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# СВОБОДНОЕ ПОМОРЬЕ\n\n## Данные из перечня\n\n- **Название:** СВОБОДНОЕ ПОМОРЬЕ\n- **В списке:** нет\n\n- **Исходная строка:** `СВОБОДНОЕ ПОМОРЬЕ ,`\n\n"
+}

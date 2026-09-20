@@ -1,0 +1,19 @@
+{
+  "record": {
+    "id": 12618,
+    "type": "person",
+    "name": "МАНЬКО ДОБРОСЛАВ АНДРЕЕВИЧ",
+    "aliases": [
+      "MANKO DOBROSLAV ANDRIIOVYCH"
+    ],
+    "last_name": "МАНЬКО",
+    "first_name": "ДОБРОСЛАВ",
+    "middle_name": "АНДРЕЕВИЧ",
+    "date_of_birth": "02.04.1997",
+    "year_of_birth": 1997,
+    "place_of_birth": "Г. МАРИУПОЛЬ УКРАИНЫ",
+    "letter": "М",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 12618\nfullName: \"МАНЬКО ДОБРОСЛАВ АНДРЕЕВИЧ\"\naliases: [\"MANKO DOBROSLAV ANDRIIOVYCH\"]\ndateOfBirth: \"02.04.1997\"\nplaceOfBirth: \"Г. МАРИУПОЛЬ УКРАИНЫ\"\nmarked: true\n---\n# МАНЬКО ДОБРОСЛАВ АНДРЕЕВИЧ\n\n## Данные из перечня\n\n- **ФИО:** МАНЬКО ДОБРОСЛАВ АНДРЕЕВИЧ\n- **Алиасы:** MANKO DOBROSLAV ANDRIIOVYCH\n- **Дата рождения:** 02.04.1997\n- **Место рождения:** Г. МАРИУПОЛЬ УКРАИНЫ\n- **В списке:** да\n\n- **Исходная строка:** `МАНЬКО ДОБРОСЛАВ АНДРЕЕВИЧ*, (MANKO DOBROSLAV ANDRIIOVYCH), 02.04.1997 г.р. , Г. МАРИУПОЛЬ УКРАИНЫ`\n\n"
+}

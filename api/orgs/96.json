@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 96,
+    "type": "org",
+    "name": "ДВИЖЕНИЕ ЗА СВОБОДУ ТАТПОЛИТ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 96\nname: \"ДВИЖЕНИЕ ЗА СВОБОДУ ТАТПОЛИТ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ДВИЖЕНИЕ ЗА СВОБОДУ ТАТПОЛИТ\n\n## Данные из перечня\n\n- **Название:** ДВИЖЕНИЕ ЗА СВОБОДУ ТАТПОЛИТ\n- **В списке:** да\n\n- **Исходная строка:** `ДВИЖЕНИЕ ЗА СВОБОДУ ТАТПОЛИТ* ,`\n\n"
+}

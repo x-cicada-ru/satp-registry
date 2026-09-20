@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 836,
+    "type": "org",
+    "name": "СОЮЗ ЧЕРНОЗЕМСКИХ ГОСУДАРСТВ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 836\nname: \"СОЮЗ ЧЕРНОЗЕМСКИХ ГОСУДАРСТВ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# СОЮЗ ЧЕРНОЗЕМСКИХ ГОСУДАРСТВ\n\n## Данные из перечня\n\n- **Название:** СОЮЗ ЧЕРНОЗЕМСКИХ ГОСУДАРСТВ\n- **В списке:** да\n\n- **Исходная строка:** `СОЮЗ ЧЕРНОЗЕМСКИХ ГОСУДАРСТВ* ,`\n\n"
+}

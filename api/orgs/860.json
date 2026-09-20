@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 860,
+    "type": "org",
+    "name": "УКРАИНСКАЯ ОРГАНИЗАЦИЯ БРАТСТВО",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 860\nname: \"УКРАИНСКАЯ ОРГАНИЗАЦИЯ БРАТСТВО\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# УКРАИНСКАЯ ОРГАНИЗАЦИЯ БРАТСТВО\n\n## Данные из перечня\n\n- **Название:** УКРАИНСКАЯ ОРГАНИЗАЦИЯ БРАТСТВО\n- **В списке:** нет\n\n- **Исходная строка:** `УКРАИНСКАЯ ОРГАНИЗАЦИЯ БРАТСТВО ,`\n\n"
+}

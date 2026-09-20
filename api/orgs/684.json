@@ -1,0 +1,16 @@
+{
+  "record": {
+    "id": 684,
+    "type": "org",
+    "name": "НПО ФИННО-УГРИЯ (ТАЛЛИН)",
+    "aliases": [
+      "ТАЛЛИН"
+    ],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 684\nname: \"НПО ФИННО-УГРИЯ (ТАЛЛИН)\"\naliases: [\"ТАЛЛИН\"]\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# НПО ФИННО-УГРИЯ (ТАЛЛИН)\n\n## Данные из перечня\n\n- **Название:** НПО ФИННО-УГРИЯ (ТАЛЛИН)\n- **Алиасы:** ТАЛЛИН\n- **В списке:** нет\n\n- **Исходная строка:** `НПО ФИННО-УГРИЯ (ТАЛЛИН) ,`\n\n"
+}

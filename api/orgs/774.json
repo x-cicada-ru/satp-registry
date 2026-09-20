@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 774,
+    "type": "org",
+    "name": "ОРГАНИЗАЦИЯ ЧАСТНЫЙ СУД КЕБЕ",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": true
+  },
+  "body": "---\ntype: \"организация\"\nid: 774\nname: \"ОРГАНИЗАЦИЯ ЧАСТНЫЙ СУД КЕБЕ\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: true\n---\n# ОРГАНИЗАЦИЯ ЧАСТНЫЙ СУД КЕБЕ\n\n## Данные из перечня\n\n- **Название:** ОРГАНИЗАЦИЯ ЧАСТНЫЙ СУД КЕБЕ\n- **В списке:** да\n\n- **Исходная строка:** `ОРГАНИЗАЦИЯ ЧАСТНЫЙ СУД КЕБЕ* ,`\n\n"
+}

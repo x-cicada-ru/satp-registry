@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 13630,
+    "type": "person",
+    "name": "МУКТАРАЛИ УУЛУ АБДУЛЛАХ",
+    "aliases": [],
+    "last_name": "МУКТАРАЛИ",
+    "first_name": "УУЛУ",
+    "middle_name": "АБДУЛЛАХ",
+    "date_of_birth": "12.01.1993",
+    "year_of_birth": 1993,
+    "place_of_birth": null,
+    "letter": "М",
+    "marked": false
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 13630\nfullName: \"МУКТАРАЛИ УУЛУ АБДУЛЛАХ\"\naliases: []\ndateOfBirth: \"12.01.1993\"\nplaceOfBirth: null\nmarked: false\n---\n# МУКТАРАЛИ УУЛУ АБДУЛЛАХ\n\n## Данные из перечня\n\n- **ФИО:** МУКТАРАЛИ УУЛУ АБДУЛЛАХ\n- **Дата рождения:** 12.01.1993\n- **В списке:** нет\n\n- **Исходная строка:** `МУКТАРАЛИ УУЛУ АБДУЛЛАХ, 12.01.1993 г.р.`\n\n"
+}

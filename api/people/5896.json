@@ -1,0 +1,17 @@
+{
+  "record": {
+    "id": 5896,
+    "type": "person",
+    "name": "ГРОМОВ ИГОРЬ ВИКТОРОВИЧ",
+    "aliases": [],
+    "last_name": "ГРОМОВ",
+    "first_name": "ИГОРЬ",
+    "middle_name": "ВИКТОРОВИЧ",
+    "date_of_birth": "08.11.1983",
+    "year_of_birth": 1983,
+    "place_of_birth": null,
+    "letter": "Г",
+    "marked": true
+  },
+  "body": "---\ntype: \"физлицо\"\nid: 5896\nfullName: \"ГРОМОВ ИГОРЬ ВИКТОРОВИЧ\"\naliases: []\ndateOfBirth: \"08.11.1983\"\nplaceOfBirth: null\nmarked: true\n---\n# ГРОМОВ ИГОРЬ ВИКТОРОВИЧ\n\n## Данные из перечня\n\n- **ФИО:** ГРОМОВ ИГОРЬ ВИКТОРОВИЧ\n- **Дата рождения:** 08.11.1983\n- **В списке:** да\n\n- **Исходная строка:** `ГРОМОВ ИГОРЬ ВИКТОРОВИЧ*, 08.11.1983 г.р.`\n\n"
+}

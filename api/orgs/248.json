@@ -1,0 +1,14 @@
+{
+  "record": {
+    "id": 248,
+    "type": "org",
+    "name": "МЕМОРИАЛ МЕДИА",
+    "aliases": [],
+    "country": null,
+    "inn": null,
+    "ogrn": null,
+    "date": null,
+    "marked": false
+  },
+  "body": "---\ntype: \"организация\"\nid: 248\nname: \"МЕМОРИАЛ МЕДИА\"\naliases: []\ncountry: null\ninn: null\nogrn: null\ndate: null\nmarked: false\n---\n# МЕМОРИАЛ МЕДИА\n\n## Данные из перечня\n\n- **Название:** МЕМОРИАЛ МЕДИА\n- **В списке:** нет\n\n- **Исходная строка:** `МЕМОРИАЛ МЕДИА ,`\n\n"
+}
