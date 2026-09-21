@@ -3,167 +3,220 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SATP Registry · публичный API</title>
+<title>SATP Registry · smart поиск по всем параметрам</title>
 <style>
   :root{--ink:#1a1a1a;--muted:#666;--line:#ddd;--accent:#0b5cab;--bg:#fff}
   *{box-sizing:border-box}
   body{margin:0;font:16px/1.55 -apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
-  header{padding:2rem 1rem;border-bottom:1px solid var(--line)}
-  main{max-width:960px;margin:0 auto;padding:1.5rem 1rem 4rem}
-  h1{font-size:1.6rem;margin:0 0 .25rem}
+  header{padding:1.6rem 1rem;border-bottom:1px solid var(--line)}
+  main{max-width:1020px;margin:0 auto;padding:1.5rem 1rem 4rem}
+  h1{font-size:1.5rem;margin:0 0 .25rem}
   p.sub{margin:.25rem 0 0;color:var(--muted)}
-  code{background:#f4f4f4;border:1px solid var(--line);border-radius:4px;padding:.1rem .35rem;font-size:.9em}
-  pre{background:#f7f7f7;border:1px solid var(--line);border-radius:6px;padding:.75rem 1rem;overflow:auto;font-size:.85rem}
-  table{border-collapse:collapse;width:100%;margin:.5rem 0 1.5rem}
-  th,td{text-align:left;padding:.4rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+  input[type=search]{width:100%;font:1.05rem inherit;padding:.65rem .8rem;border:1px solid var(--line);border-radius:8px}
+  input[type=search]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+  .hint{color:var(--muted);font-size:.85rem;margin:.5rem 0 0}
+  .hint code{background:#f4f4f4;border:1px solid var(--line);border-radius:4px;padding:.05rem .3rem}
+  #status{margin:1rem 0 .5rem;color:var(--muted);font-size:.9rem}
+  table{border-collapse:collapse;width:100%}
+  th,td{text-align:left;padding:.45rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
   th{font-weight:600}
-  input[type=search]{width:100%;max-width:480px;font:inherit;padding:.5rem .7rem;border:1px solid var(--line);border-radius:6px}
-  .meta{color:var(--muted);font-size:.9rem}
-  #results{margin-top:1rem}
-  #results table td:nth-child(2){max-width:420px;overflow-wrap:break-word}
+  .tag{display:inline-block;font-size:.72rem;font-weight:600;padding:.05rem .4rem;border-radius:4px;margin-right:.5rem}
+  .tag.p{background:#eef4ff;color:#2463b3}
+  .tag.o{background:#fff1e6;color:#b3551f}
+  .mk{color:#a11;font-size:.75rem}
+  td.name{max-width:340px;overflow-wrap:break-word}
+  .score{font-size:.75rem;color:var(--muted)}
   a{color:var(--accent);text-decoration:none}
   a:hover{text-decoration:underline}
+  .empty{padding:1.5rem 0;color:var(--muted)}
+  button{font:inherit;border:1px solid var(--line);background:#fff;border-radius:8px;padding:.35rem .8rem;cursor:pointer;color:var(--ink)}
+  button:hover{border-color:var(--accent)}
+  #jsonview{white-space:pre-wrap;word-break:break-word;background:#fafafa;border:1px solid var(--line);border-radius:8px;padding:.8rem;font:12px/1.5 "SFMono-Regular",Consolas,monospace;max-height:70vh;overflow:auto}
 </style>
 </head>
 <body>
 <header>
-  <div style="max-width:960px;margin:0 auto">
-    <h1>SATP Registry — публичный API</h1>
-    <p class="sub">Перечень организаций и физических лиц. Без ключа, без регистрации.</p>
+  <div style="max-width:1020px;margin:0 auto">
+    <h1>SATP Registry · smart поиск</h1>
+    <p class="sub">Одна строка ищет по всем параметрам сразу: ФИО, дата/год/месяц рождения, город и страна, алиасы, ИНН, ОГРН, отметка в реестре. Без ключа.</p>
   </div>
 </header>
 <main>
-  <p>Статический API на GitHub Pages. Все эндпоинты — обычные JSON-файлы:
-  <code>curl https://x-cicada-ru.github.io/satp-registry/api/people/1.json</code></p>
-
-  <h2>Эндпоинты</h2>
-  <table>
-    <tr><th>Метод и путь</th><th>Назначение</th></tr>
-    <tr><td><code>GET /api/health.json</code></td><td>Проверка доступности</td></tr>
-    <tr><td><code>GET /api/stats.json</code></td><td>Статистика реестра</td></tr>
-    <tr><td><code>GET /api/manifest.json</code></td><td>Описание API</td></tr>
-    <tr><td><code>GET /api/people/index.json</code></td><td>Все физлица (сводки)</td></tr>
-    <tr><td><code>GET /api/people/letter/А.json … /Я.json</code></td><td>Сводки по букве раздела</td></tr>
-    <tr><td><code>GET /api/people/{id}.json</code></td><td>Карточка физлица + полный текст</td></tr>
-    <tr><td><code>GET /api/orgs/index.json</code></td><td>Все организации (сводки)</td></tr>
-    <tr><td><code>GET /api/orgs/{id}.json</code></td><td>Карточка организации + полный текст</td></tr>
-  </table>
-
-  <h2>Поля записи</h2>
-  <table>
-    <tr><th>Поле</th><th>Описание</th></tr>
-    <tr><td><code>id</code></td><td>Числовой идентификатор</td></tr>
-    <tr><td><code>name</code></td><td>Полное имя/название</td></tr>
-    <tr><td><code>aliases</code></td><td>Псевдонимы</td></tr>
-    <tr><td>Физлицо</td><td><code>last_name</code>, <code>first_name</code>, <code>middle_name</code>, <code>date_of_birth</code>, <code>year_of_birth</code>, <code>place_of_birth</code>, <code>letter</code></td></tr>
-    <tr><td>Организация</td><td><code>country</code>, <code>inn</code>, <code>ogrn</code>, <code>date</code></td></tr>
-    <tr><td><code>marked</code></td><td>Признак (true/false)</td></tr>
-    <tr><td><code>body</code></td><td>Полный текст записи (только в карточках {id}.json)</td></tr>
-  </table>
-
-  <h2>Примеры (curl)</h2>
-  <pre>
-# Статистика реестра
-curl https://x-cicada-ru.github.io/satp-registry/api/stats.json
-
-# Все люди (сводки), 22 915 записей
-curl https://x-cicada-ru.github.io/satp-registry/api/people/index.json
-
-# Только буква «А»
-curl https://x-cicada-ru.github.io/satp-registry/api/people/letter/А.json
-
-# Карточка с полным текстом
-curl https://x-cicada-ru.github.io/satp-registry/api/people/1.json
-
-# «Поиск по параметрам» в браузере — ниже по этой странице
-  </pre>
-
-  <h2>Поиск по параметрам (в браузере)</h2>
-  <p class="meta">GitHub Pages не умеет фильтровать серверным запросом, поэтому
-  полноценный поиск выполняется здесь — на вашей стороне: скачиваются сводки нужной
-  буквы и фильтруются по тем же полям, что были бы в API-параметрах. Работает офлайн после первой загрузки.</p>
-  <input type="search" id="q" placeholder="q · name · last_name · first_name · middle_name · yob · place · letter · marked · alias"
-    autocomplete="off" value="">
-  <p id="status" class="meta"></p>
+  <form id="f" action="javascript:void(0)">
+    <input type="search" id="q" placeholder="Иванов Иван Иванович · Иванов Иван 1985 · Иванов Иван 15.03.1985 Москва · 1653019714 · FREE RUSSIA · ГЕРМАНИЯ" autocomplete="off">
+  </form>
+  <p class="hint">Работает и как ссылка: <code>/?quest=Иванов Иван 1985</code>. Добавляйте <code>&amp;json=1</code> для вывода результата JSON-массивом.</p>
+  <p class="hint">Все параметры: слова по имени/отчеству/фамилии/месту/стране/алиасам; <code>15.03.1985</code> — полная дата; <code>03.1985</code> — месяц и год; <code>1985</code> — год; <code>12 цифр</code> — ИНН, <code>13 цифр</code> — ОГРН; <code>маркирован</code>/<code>немаркирован</code>; <code>организация</code>/<code>физлицо</code>.</p>
+  <p id="status" class="empty">Загрузка индекса…</p>
+  <div style="margin-bottom:.6rem"><button id="toggle" type="button">Таблица / JSON</button> <button id="copy" type="button">Скопировать JSON</button></div>
   <div id="results"></div>
+  <pre id="jsonview" hidden></pre>
 </main>
 <script>
-const BASE = "https://x-cicada-ru.github.io/satp-registry/api/people";
-const LETTERS = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЭЮЯ".split("");
-const cache = new Map();
-let all = [];
-let timer = null;
+const BASE = "https://x-cicada-ru.github.io/satp-registry/api";
+let ALL = [];
+let LAST = [];
+let JSONMODE = false;
 
-function norm(s){ return (s || "").toUpperCase().replace(/Ё/g, "Е").trim(); }
+const NORM = (s) => (s || "").toUpperCase().replace(/Ё/g, "Е").replace(/\s+/g, " ").trim();
+const WS = /[^А-ЯA-Z0-9]+/;
+const WORDS = (s) => NORM(s).split(WS).filter(Boolean);
+const YR = "(?:18|19|20)\\d{2}";
+const DT = "\\b\\d{2}\\.\\d{2}\\.\\d{4}\\b";
+const MY = "\\b\\d{1,2}\\.\\d{4}\\b";
+const DROP = new Set(["ГОРОД","ОБЛ","ОБЛАСТЬ","КРАЙ","РЕСПУБЛИКА","РЕСПУБЛИКИ","РЕСП","РАЙОН","Р-Н","ДЕРЕВНЯ","ПОСЁЛОК","СЕЛО","АВТОНОМНЫЙ","АВТОНОМНОЙ","ГОРОДА","И","В","НЕ","ДО","С","ПО","НА","ОТ"]);
+const MYES = new Set(["МАРКИРОВАН","МАРКИРОВАННЫЙ","МАРКИРОВАННЫЕ","МАРКИРОВАННЫХ","МАРКЕД","ЕСТЬ","ДА","ВКЛЮЧЁН","ВКЛЮЧЕН"]);
+const MNO = new Set(["НЕМАРКИРОВАН","НЕМАРКИРОВАННЫЙ","НЕМАРКИРОВАННЫЕ","НЕМАРКЕД","НЕТ","ИСКЛЮЧЁН","ИСКЛЮЧЕН"]);
+const KORG = new Set(["ОРГАНИЗАЦИЯ","ОРГАНИЗАЦИИ","ОРГАНИЗАЦИЙ","ОРГАНИЗАЦИЮ","ОРГ","ФИРМА","КОМПАНИЯ","КОМПАНИИ","КОМПАНИЙ","ЮРЛИЦО"]);
+const KP = new Set(["ФИЗЛИЦО","ФИЗИЧЕСКОЕ","ФИЗИЧЕСКИЕ","ФИЗИЧЕСКОГО","ЧЕЛОВЕК","ЧЕЛОВЕКА","ЛЮДИ","ЛИЦО","ЛИЦА"]);
 
-async function loadLetter(l){
-  if (cache.has(l)) return cache.get(l);
-  const r = await fetch(BASE + "/letter/" + l + ".json");
-  const a = await r.json();
-  cache.set(l, a);
-  return a;
-}
-
-async function gatherAll(){
-  const out = [];
-  await Promise.all(LETTERS.map(async (l) => {
-    out.push.apply(out, await loadLetter(l));
-  }));
-  all = out;
-}
-
-function filter(rec, p){
-  if (p.q && ![rec.name, ...(rec.aliases||[]), rec.place_of_birth, ""].some(h => norm(h).includes(norm(p.q)))) return false;
-  if (p.name && !norm(rec.name).includes(norm(p.name))) return false;
-  if (p.last_name && !norm(rec.last_name).includes(norm(p.last_name))) return false;
-  if (p.first_name && !norm(rec.first_name).includes(norm(p.first_name))) return false;
-  if (p.middle_name && !norm(rec.middle_name).includes(norm(p.middle_name))) return false;
-  if (p.yob && rec.year_of_birth != p.yob) return false;
-  if (p.place && !norm(rec.place_of_birth).includes(norm(p.place))) return false;
-  if (p.letter && rec.letter !== p.letter.toUpperCase()) return false;
-  if (p.alias && !(rec.aliases||[]).some(a => norm(a).includes(norm(p.alias)))) return false;
-  if (p.marked != null) {
-    const want = ["1","true","да","yes","on"].includes(String(p.marked).toLowerCase());
-    if (!!rec.marked !== want) return false;
+function parseQuest(raw) {
+  let q = NORM(raw);
+  const res = { kind: null, marked: null, dates: [], monthYears: [], years: [], inns: [], ogrns: [], words: [] };
+  if (!q) return res;
+  for (const m of q.matchAll(new RegExp(DT, "g"))) res.dates.push(m[0]);
+  q = q.replace(new RegExp(DT, "g"), " ");
+  for (const m of q.matchAll(new RegExp(MY, "g"))) { const [mm, yyyy] = m[0].split("."); res.monthYears.push({ m: Number(mm), y: Number(yyyy) }); }
+  q = q.replace(new RegExp(MY, "g"), " ");
+  for (const m of q.matchAll(new RegExp("\\b(" + YR + ")\\b", "g"))) res.years.push(Number(m[1]));
+  q = q.replace(new RegExp("\\b(" + YR + ")\\b", "g"), " ");
+  for (const t of q.split(WS)) {
+    if (!t) continue;
+    if (/^\d{13}$/.test(t)) res.ogrns.push(t);
+    else if (/^\d{10}$|^\d{12}$/.test(t)) res.inns.push(t);
+    else if (/^\d+$/.test(t)) continue;
+    else if (MYES.has(t)) res.marked = true;
+    else if (MNO.has(t)) res.marked = false;
+    else if (KORG.has(t)) res.kind = "org";
+    else if (KP.has(t)) res.kind = "person";
+    else res.words.push(t);
   }
+  res.words = res.words.filter((w) => w.length > 1 && !DROP.has(w));
+  return res;
+}
+
+const mMatches = (dob, ms) => { const m = dob && dob.match(/^(\d{2})\.(\d{2})\.(\d{4})$/); return m && Number(m[2]) === ms.m && Number(m[3]) === ms.y; };
+const wordHit = (w, hay) => hay.some((f) => WORDS(f).includes(w) || (w.length >= 4 && NORM(f).includes(w)));
+
+function matchRec(rec, p) {
+  if (rec.type === "org") {
+    if (p.kind === "person") return false;
+    if (p.marked !== null && rec.marked !== p.marked) return false;
+    if (p.dates.length && !(rec.date && p.dates.some((d) => rec.date === d || rec.date.includes(d)))) return false;
+    if (p.years.length && !(rec.date && p.years.some((y) => rec.date.includes(String(y))))) return false;
+    if (p.monthYears.length && !(rec.date && p.monthYears.some((ms) => mMatches(rec.date, ms)))) return false;
+    if (p.inns.length && p.inns.some((i) => rec.inn !== i)) return false;
+    if (p.ogrns.length && p.ogrns.some((g) => rec.ogrn !== g)) return false;
+    if (p.words.length && !p.words.every((w) => wordHit(w, [rec.name, ...(rec.aliases || []), rec.country].filter(Boolean)))) return false;
+    return true;
+  }
+  if (p.kind === "org") return false;
+  if (p.marked !== null && rec.marked !== p.marked) return false;
+  if (p.dates.length && rec.date_of_birth !== p.dates[0]) return false;
+  if (p.years.length && !p.years.some((y) => rec.year_of_birth === y)) return false;
+  if (p.monthYears.length && !p.monthYears.some((ms) => mMatches(rec.date_of_birth, ms))) return false;
+  if (p.inns.length || p.ogrns.length) return false;
+  if (p.words.length && !p.words.every((w) => wordHit(w, [rec.last_name, rec.first_name, rec.middle_name, ...(rec.aliases || []), rec.place_of_birth].filter(Boolean)))) return false;
   return true;
 }
 
-async function render(params){
-  const status = document.getElementById("status");
-  const box = document.getElementById("results");
-  const sp = new URLSearchParams(params);
-  const hasFilter = [...sp.keys()].some(k => sp.get(k));
-  const joined = !hasFilter
-    ? all
-    : all.filter(r => filter(r, { q: sp.get("q"), name: sp.get("name"), last_name: sp.get("last_name"),
-        first_name: sp.get("first_name"), middle_name: sp.get("middle_name"), yob: sp.get("yob"),
-        place: sp.get("place"), letter: sp.get("letter"), alias: sp.get("alias"), marked: sp.get("marked") }));
-  status.textContent = joined.length + " записей";
-  const slice = joined.slice(0, 500);
-  const rows = slice.map(r =>
-    "<tr><td>#" + r.id + "</td><td><a href='" + BASE + "/" + r.id + ".json'>" + r.name + "</a>" +
-    (r.marked ? "<span class=meta>&nbsp;marked</span>" : "") + "</td>" +
-    "<td>" + (r.date_of_birth || "—") + "</td><td>" + (r.place_of_birth || "—") + "</td></tr>").join("");
-  box.innerHTML = "<table><tr><th>ID</th><th>Имя</th><th>Дата рождения</th><th>Место рождения</th></tr>" + rows + "</table>"
-    + (joined.length > 500 ? "<p class=meta>показано 500 из " + joined.length + "</p>" : "");
+function score(rec, p) {
+  let s = 0;
+  if (rec.type === "org") {
+    for (const w of p.words) {
+      if (WORDS(rec.name).includes(w)) s += 3; else if (w.length >= 4 && NORM(rec.name).includes(w)) s += 2;
+      if (rec.aliases && rec.aliases.some((a) => WORDS(a).includes(w))) s += 1;
+      if (rec.country && WORDS(rec.country).includes(w)) s += 0.7; else if (rec.country && w.length >= 4 && NORM(rec.country).includes(w)) s += 0.4;
+    }
+  } else {
+    for (const w of p.words) {
+      if (rec.last_name && WORDS(rec.last_name).includes(w)) s += 3; else if (rec.last_name && w.length >= 4 && NORM(rec.last_name).includes(w)) s += 2;
+      if (rec.first_name && WORDS(rec.first_name).includes(w)) s += 2; else if (rec.first_name && w.length >= 4 && NORM(rec.first_name).includes(w)) s += 1;
+      if (rec.middle_name && WORDS(rec.middle_name).includes(w)) s += 1.5; else if (rec.middle_name && w.length >= 4 && NORM(rec.middle_name).includes(w)) s += 0.8;
+      if (rec.aliases && rec.aliases.some((a) => WORDS(a).includes(w))) s += 1;
+      if (rec.place_of_birth && WORDS(rec.place_of_birth).includes(w)) s += 0.7; else if (rec.place_of_birth && w.length >= 4 && NORM(rec.place_of_birth).includes(w)) s += 0.4;
+    }
+  }
+  if (p.years.length) s += 2;
+  if (p.dates.length) s += 2;
+  if (p.monthYears.length) s += 2;
+  if (p.inns.length || p.ogrns.length) s += 2;
+  return s;
+}
+
+function runQuest(raw) {
+  if (!raw.trim()) return [];
+  const p = parseQuest(raw);
+  const hits = ALL.filter((r) => matchRec(r, p));
+  hits.sort((a, b) => score(b, p) - score(a, p) || a.id - b.id);
+  return hits;
+}
+
+const statusEl = document.getElementById("status");
+const box = document.getElementById("results");
+const jsonEl = document.getElementById("jsonview");
+
+function render(raw) {
+  LAST = runQuest(raw);
+  const n = LAST.length;
+  if (!raw.trim()) {
+    statusEl.textContent = "Введите запрос.";
+    statusEl.className = "empty"; box.innerHTML = ""; jsonEl.hidden = true;
+    return;
+  }
+  statusEl.textContent = n === 0 ? "Ничего не найдено" : "Найдено: " + n;
+  statusEl.className = n ? "" : "empty";
+  const top = LAST.slice(0, 200);
+  if (JSONMODE) {
+    box.hidden = true; jsonEl.hidden = false;
+    jsonEl.textContent = JSON.stringify({ quest: raw, count: n, results: LAST }, null, 2);
+    return;
+  }
+  jsonEl.hidden = true; box.hidden = false;
+  if (!n) { box.innerHTML = "<div class=empty>Ничего не найдено</div>"; return; }
+  const rows = top.map((r) => {
+    const tag = r.type === "org" ? "o" : "p";
+    const date = r.date_of_birth || r.date || "—";
+    const place = r.place_of_birth || r.country || "";
+    const mk = r.marked ? " <span class=mk>· маркирован</span>" : "";
+    return "<tr><td><span class='tag " + tag + "'>" + (r.type === "org" ? "орг" : "физлицо") + "</span><a href='" + BASE + "/" + r.type + "s/" + r.id + ".json'>" + r.name + "</a>" + mk + "<br><span class=score>#" + r.id + "</span></td>"
+      + "<td>" + date + "</td>"
+      + "<td>" + place + "</td>"
+      + "<td class=score>" + score(r, parseQuest(raw)).toFixed(1) + "</td></tr>";
+  }).join("");
+  box.innerHTML = "<table><tr><th>Имя</th><th>Дата</th><th>Место / страна</th><th></th></tr>" + rows + "</table>"
+    + (n > 200 ? "<p class=hint>показано 200 из " + n + " (все — в JSON-режиме)</p>" : "");
 }
 
 const input = document.getElementById("q");
-function fromInput(){
-  const sp = new URLSearchParams();
-  if (input.value.trim()) sp.set("q", input.value.trim());
-  history.replaceState(null, "", "/satp-registry/?" + sp.toString());
-  render(sp);
+function fromInput() {
+  const v = input.value.trim();
+  history.replaceState(null, "", "/satp-registry/?" + (v ? "quest=" + encodeURIComponent(v) : "") + (JSONMODE ? "&json=1" : ""));
+  render(v);
 }
-input.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(fromInput, 250); });
+let timer = null;
+input.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(fromInput, 200); });
+document.getElementById("f").addEventListener("submit", () => { clearTimeout(timer); fromInput(); });
+document.getElementById("toggle").addEventListener("click", () => { JSONMODE = !JSONMODE; render(input.value.trim()); });
+document.getElementById("copy").addEventListener("click", async () => {
+  const text = JSON.stringify({ quest: input.value.trim(), count: LAST.length, results: LAST }, null, 2);
+  try { await navigator.clipboard.writeText(text); } catch { document.execCommand("copy"); }
+});
 
-(async function init(){
-  var sp = new URLSearchParams(location.search);
-  if (sp.get("q")) input.value = sp.get("q");
-  await gatherAll();
-  history.replaceState(null, "", "/satp-registry/?" + sp.toString());
-  render(sp);
+(async function init() {
+  const sp = new URLSearchParams(location.search);
+  const q = sp.get("quest") || sp.get("q") || "";
+  JSONMODE = sp.get("json") === "1";
+  if (q) input.value = q;
+  const [pr, or] = await Promise.all([
+    fetch(BASE + "/people/index.json").then((r) => r.json()),
+    fetch(BASE + "/orgs/index.json").then((r) => r.json()),
+  ]);
+  ALL = [...pr, ...or];
+  history.replaceState(null, "", "/satp-registry/?" + (q ? "quest=" + encodeURIComponent(q) : "") + (JSONMODE ? "&json=1" : ""));
+  statusEl.textContent = "Индекс загружен: " + ALL.length + " записей.";
+  statusEl.className = "";
+  render(q);
 })();
 </script>
 </body>
